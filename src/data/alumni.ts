@@ -223,7 +223,7 @@ export const alumni: Alumni[] = [
   { name: 'Venkat Kandukuri', company: 'Amazon', position: 'Software Development Engineer', class: 'Alpha Alpha' },
 
   // Alpha Beta
-  { name: 'Ibrahim Saiger', company: 'Little & Star Lab', position: 'Computational Neuroscience', class: 'Alpha Beta' },
+  { name: 'Ibrahim Saiger', company: 'Tandem Diabetes Care', position: 'Product Development Engineer', class: 'Alpha Beta' },
 
   // Alpha Gamma
   { name: 'Kush Goswami', company: 'Amazon Web Services', position: 'Software Development Engineer', class: 'Alpha Gamma' },
