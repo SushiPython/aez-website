@@ -39,7 +39,7 @@ export const navigation: NavItem[] = [
       },
       {
         label: 'Application',
-        href: 'https://airtable.com/appoEeyrE51PL5szS/pagzqgUqNe5oEKFy7/form',
+        href: 'https://airtable.com/appziasqUIxt46Gwh/pagzqgUqNe5oEKFy7/form',
         external: true,
       },
     ],
@@ -56,9 +56,8 @@ export const socialLinks = {
 // Statistics counters for home page
 export const statsCounters: CounterData[] = [
   {
-    value: 92,
-    label: 'Haas\nAcceptance Rate',
-    suffix: '%',
+    value: 5,
+    label: 'Forbes 30 under 30\nAlumni',
     animationDuration: 2000,
   },
   {
