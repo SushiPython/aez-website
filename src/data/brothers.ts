@@ -542,7 +542,7 @@ export const regularBrothers: Brother[] = [
     year: 'freshman',
     hometown: 'Chino Hills, California',
     bio: 'Zahm is a freshman in the Alpha Zeta Class. He is from Chino Hills, California and is majoring in Data Science. He is interested in product management, consulting, and cybersecurity. In his free time, he loves weightlifting, waterpolo, biking, and basketball. He also enjoys collecting Pokemon cards, colognes, playing poker, listening to EDM/techno, and eating ice cream.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66b09852815571d069_Zahm_Siyed_AZClassFA25.JPG',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/69ed135aa92fc3af499a40c5_zahm_crop.jpeg',
     email: 'TBD',
     interests: ['product management', 'consulting', 'cybersecurity', 'weightlifting', 'waterpolo', 'biking', 'basketball', 'Pokemon cards', 'colognes', 'poker', 'EDM/techno'],
     isExecutive: false
