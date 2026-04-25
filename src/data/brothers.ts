@@ -567,7 +567,7 @@ export const regularBrothers: Brother[] = [
     major: 'Computer Science',
     year: 'freshman',
     hometown: 'Denver, Colorado',
-    bio: 'Laiq is a freshman in the Alpha Zeta class studying Computer Science. He is from Denver, Colorado and is interested in artificial intelligence, web development, and database management. He plans to pursue a career in software engineering. Outside of academics, he enjoys watching the Broncos, plot twist movies, traveling, and outdoor activities like hiking and paddleboarding.',
+    bio: 'Laiq is a freshman in the Alpha Zeta class studying Computer Science. He is from Denver, Colorado and is interested in artificial intelligence, web development, and database management. He plans to pursue a career in software engineering. Outside of academics, he enjoys watching the Broncos, plot twist movies, good sushi, going to concerts, and hiking.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66515277d6167d4ab3_Laiq_Sorrell_AZClassFA25.jpg',
     email: 'TBD',
     interests: ['artificial intelligence', 'web development', 'database management', 'software engineering', 'Broncos', 'movies', 'traveling', 'hiking', 'paddleboarding'],
@@ -581,7 +581,7 @@ export const regularBrothers: Brother[] = [
     year: 'freshman',
     hometown: 'Fremont, California',
     bio: 'Nidhish is a freshman majoring in Business Administration and Data Science. He is from Fremont, California and part of the Alpha Zeta class. He is interested in investment banking, entrepreneurship, and investing. Outside of school, he enjoys backpacking in new states, hosting functions, reading insightful non-fiction, and late night workouts.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66c83efa8d63ebd3fa_Nidhish_Tekkam_AZClassFA25.JPG',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/69ec165de1442474880fa8d7_nidhish_crop.jpg',
     email: 'TBD',
     interests: ['investment banking', 'entrepreneurship', 'investing', 'backpacking', 'hosting', 'non-fiction', 'workouts'],
     isExecutive: false
