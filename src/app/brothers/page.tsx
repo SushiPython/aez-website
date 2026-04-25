@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Image from 'next/image';
 import { executives, regularBrothers } from '@/data/brothers';
 import { Brother } from '@/types';
@@ -143,8 +143,29 @@ interface BrotherCardProps {
 }
 
 function BrotherCard({ brother, showExecutiveTag }: BrotherCardProps) {
+  const [expanded, setExpanded] = useState(false);
+  const [isMobileLayout, setIsMobileLayout] = useState(false);
+
+  useEffect(() => {
+    const mq = window.matchMedia('(max-width: 767px)');
+    const sync = () => setIsMobileLayout(mq.matches);
+    sync();
+    mq.addEventListener('change', sync);
+    return () => mq.removeEventListener('change', sync);
+  }, []);
+
+  useEffect(() => {
+    if (!isMobileLayout) setExpanded(false);
+  }, [isMobileLayout]);
+
   return (
-    <Card className="card-hover-overlay group hover:shadow-soft transition-all duration-300 border-0 p-0">
+    <Card
+      className="card-hover-overlay group hover:shadow-soft transition-all duration-300 border-0 p-0 max-md:cursor-pointer"
+      data-expanded={expanded ? 'true' : undefined}
+      onClick={() => {
+        if (isMobileLayout) setExpanded((e) => !e);
+      }}
+    >
       <div className="relative aspect-[3/4] overflow-hidden">
         <Image
           src={brother.image}
@@ -163,8 +184,11 @@ function BrotherCard({ brother, showExecutiveTag }: BrotherCardProps) {
           </div>
         )}
         
-        {/* Basic Info Overlay (Always Visible, Hidden on Hover) */}
-        <div className="absolute bottom-0 left-0 right-0 p-4 group-hover:opacity-0 transition-opacity duration-300" style={{background: 'linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 50%, transparent 100%)'}}>
+        {/* Basic Info Overlay (Always visible; hidden on desktop hover or mobile tap-expand) */}
+        <div
+          className="absolute bottom-0 left-0 right-0 p-4 opacity-100 transition-opacity duration-300 max-md:group-data-[expanded=true]:opacity-0 md:group-hover:opacity-0"
+          style={{background: 'linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.6) 50%, transparent 100%)'}}
+        >
           <div className="text-2xl font-serif font-semibold mb-2 text-white" style={{color: '#ffffff !important', WebkitTextFillColor: '#ffffff !important', textShadow: '0 1px 2px rgba(0, 0, 0, 0.3)'}}>{brother.name}</div>
           <div className="space-y-1 text-sm">
             <p className="text-xs uppercase tracking-caps text-gray-400 font-medium">{brother.class}</p>
@@ -172,8 +196,11 @@ function BrotherCard({ brother, showExecutiveTag }: BrotherCardProps) {
           </div>
         </div>
         
-        {/* Summary Overlay (Shows on Hover) */}
-        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-all duration-300 p-4 flex flex-col justify-end" style={{background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 50%, transparent 100%)'}}>
+        {/* Summary overlay (desktop: hover; mobile: tap card to toggle) */}
+        <div
+          className="absolute inset-0 opacity-0 transition-all duration-300 p-4 flex flex-col justify-end max-md:group-data-[expanded=true]:opacity-100 md:group-hover:opacity-100"
+          style={{background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 50%, transparent 100%)'}}
+        >
           <div className="text-2xl font-serif font-semibold mb-2 text-white" style={{color: '#ffffff !important', WebkitTextFillColor: '#ffffff !important', textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)'}}>{brother.name}</div>
           <div className="space-y-1 text-sm mb-3">
             <p className="text-xs uppercase tracking-caps text-gray-400 font-medium">{brother.class}</p>
