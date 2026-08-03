@@ -160,19 +160,6 @@ export const regularBrothers: Brother[] = [
     isExecutive: false
   },
   {
-    id: 'sashank-gadisetti',
-    name: 'Sashank Gadisetti',
-    class: 'Alpha Gamma',
-    major: 'Data Science',
-    year: 'senior',
-    hometown: 'Dublin, CA',
-    bio: 'Sashank is a senior and part of the Alpha Gamma class. He is from Dublin, CA and studying Data Science and minoring in CS. He is interested in pursuing a career in SWE/product management/startups. Outside of school he enjoys tennis, making matchas/coffee, climbing, poker, and edtech.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/69126997293f59eae389a84e_gadisetti-crop.jpg',
-    email: 'sgadisetti@berkeley.edu',
-    interests: ['software engineering', 'product management', 'startups', 'tennis', 'coffee'],
-    isExecutive: false
-  },
-  {
     id: 'aayush-shah',
     name: 'Aayush Shah',
     class: 'Alpha Gamma',
@@ -199,6 +186,7 @@ export const regularBrothers: Brother[] = [
     isExecutive: false
   },
   */
+  /*
   {
     id: 'sashank-gadisetti',
     name: 'Sashank Gadisetti',
@@ -212,6 +200,7 @@ export const regularBrothers: Brother[] = [
     interests: ['software engineering', 'product management', 'startups', 'tennis', 'coffee'],
     isExecutive: false
   },
+  */
   {
     id: 'aayush-shah',
     name: 'Aayush Shah',

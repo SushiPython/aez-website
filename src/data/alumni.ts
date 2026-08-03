@@ -220,6 +220,10 @@ export const alumni: Alumni[] = [
   { name: 'Dan Sunchu', company: 'Turnkey', position: 'Founding Sales Development Representative', class: 'Psi' },
 
   // Alpha Alpha
+  { name: 'Om Awate', company: 'Amazon', position: 'Software Engineer', class: 'Alpha Alpha' },
+  { name: 'Karan Bhakta', company: 'Amazon', position: 'Software Engineer', class: 'Alpha Alpha' },
+  { name: 'Charith Myneni', company: 'Amazon', position: 'Software Engineer', class: 'Alpha Alpha' },
+  { name: 'Rohun Malhotra', company: 'Wells Fargo', position: 'Investment Banking Analyst', class: 'Alpha Alpha' },
   { name: 'Venkat Kandukuri', company: 'Amazon', position: 'Software Development Engineer', class: 'Alpha Alpha' },
 
   // Alpha Beta
