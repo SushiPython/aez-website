@@ -11,7 +11,15 @@ import { Card, CardContent } from '@/components/ui/Card';
 export default function BrothersPage() {
   const [selectedClass, setSelectedClass] = useState<string>('all');
 
-  const allBrothers = useMemo(() => [...executives, ...regularBrothers], []);
+  const allBrothers = useMemo(() => {
+    // Keep a single record per brother when someone appears in both lists.
+    const seen = new Set<string>();
+    return [...executives, ...regularBrothers].filter((brother) => {
+      if (seen.has(brother.id)) return false;
+      seen.add(brother.id);
+      return true;
+    });
+  }, []);
 
   const filteredBrothers = useMemo(() => {
     let filtered = allBrothers;

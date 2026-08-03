@@ -151,7 +151,7 @@ export const slideshowImages = [
 // Class mappings for brother organization
 export const brotherClasses = {
   'Psi': { order: 1, fullName: 'Psi Class' },
-  'Alpha Alpha': { order: 2, fullName: 'Alpha Alpha Class' },
+  // 'Alpha Alpha': { order: 2, fullName: 'Alpha Alpha Class' },
   'Alpha Beta': { order: 3, fullName: 'Alpha Beta Class' },
   'Alpha Gamma': { order: 4, fullName: 'Alpha Gamma Class' },
   'Alpha Delta': { order: 5, fullName: 'Alpha Delta Class' },
