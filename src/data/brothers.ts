@@ -24,7 +24,7 @@ export const executives: Brother[] = [
     year: 'junior',
     hometown: 'Redwood City, California',
     bio: 'Zain is a junior studying Business Administration. He is from Redwood City, California, and is part of the Alpha Delta class. Zain is very interested in sports and finance and is looking to pursue a career combining both, either in banking, strategy, or management. He enjoys playing basketball and soccer, going to the gym, and occasionally dabbles in art and poker.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b1bffe6d0d90c56260_zain-passi.jpg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b1bffe6d0d90c56260_0a740b84db2931d107c5915e74567fb2_zain-passi.png',
     email: 'zainpassi@berkeley.edu',
     interests: ['sports', 'finance', 'basketball', 'soccer', 'art', 'poker'],
     isExecutive: true,
