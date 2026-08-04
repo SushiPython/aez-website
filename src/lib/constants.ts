@@ -39,7 +39,7 @@ export const navigation: NavItem[] = [
       },
       {
         label: 'Application',
-        href: 'https://airtable.com/appziasqUIxt46Gwh/pagzqgUqNe5oEKFy7/form',
+        href: 'https://airtable.com/app2wqIRjAIKb4nBD/pagzqgUqNe5oEKFy7/form',
         external: true,
       },
     ],
