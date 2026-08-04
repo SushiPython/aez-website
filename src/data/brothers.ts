@@ -45,18 +45,18 @@ export const executives: Brother[] = [
     executiveRole: 'Internal VP'
   },
   {
-    id: 'rohin-prashanth',
-    name: 'Rohin Prashanth',
-    class: 'Alpha Zeta',
-    major: 'Political Science and Public Policy',
-    year: 'sophomore',
-    hometown: 'Bay Area, California',
-    bio: 'Rohin is a sophomore and part of the Alpha Zeta Class. He is from the Bay Area and is studying Political Science and Public Policy. He is interested in a career in civil law, social sector consulting, or government. Outside of his professional interests, he enjoys playing and watching football, listening to NBA Youngboy and Lil Tecca, and reading murder mysteries.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c663dd46f865fefb56f_Rohin_Prashanth_AZClassFA25.JPG',
+    id: 'gowri-biju',
+    name: 'Gowri Biju',
+    class: 'Alpha Epsilon',
+    major: 'Political Science and Data Science',
+    year: 'junior',
+    hometown: 'Pheonix, Arizona',
+    bio: 'Gowri is a junior studying Political Economy. He is from Phoenix, Arizona, and is part of the Alpha Epsilon class. He is interested in pursuing a career in corporate law or finance. In his free time, he likes to play crosswords, try different kinds of soups, and listen to Kendrick.',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afc3c652eb3651e437_gowri-biju.png',
     email: 'TBD',
-    interests: ['civil law', 'social sector consulting', 'government', 'football', 'NBA Youngboy', 'Lil Tecca', 'murder mysteries'],
+    interests: ['TBD'],
     isExecutive: true,
-    executiveRole: 'Finance Chair'
+    executiveRole: 'VP Projects'
   },
   {
     id: 'srithan-meeniga',
@@ -94,39 +94,11 @@ export const executives: Brother[] = [
     year: 'junior',
     hometown: 'Fremont, California',
     bio: 'Yadukrishna is a junior studying Applied Mathematics. He is from Fremont, California, and a part of the Alpha Epsilon class. His career goals are at the intersection of physics and computer science, particularly quantum computing research & development, as well as LLM design. His other academic interests include history and linguistics, and his personal hobbies are basketball, chess, and Childish Gambino\'s music.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b394d9eef34f94f0fb_e75cf262ca3be8c0dced5ea8c3331e04_yadukrishna-raghu.jpg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b394d9eef34f94f0fb_f6ba97eacf5768f97ac1657fa426c416_yadukrishna-raghu.jpg',
     email: 'TBD',
     interests: ['quantum computing', 'LLM design', 'history', 'linguistics', 'basketball', 'chess', 'Childish Gambino'],
     isExecutive: true,
     executiveRole: 'Alumni Chair'
-  },
-  {
-    id: 'kanishk-vankayala',
-    name: 'Kanishk Vankayala',
-    class: 'Alpha Gamma',
-    major: 'Data Science',
-    year: 'senior',
-    hometown: 'Sacramento, California',
-    bio: 'Kanishk is a senior and part of the Alpha Gamma class studying Data Science. He is from Sacramento and is interested in tech consulting. He also enjoys playing spikeball, basketball, and journaling.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afa6ff24ad4a4387bb_kanishk-vankayala.jpg',
-    email: 'kvankaya@berkeley.edu',
-    interests: ['tech consulting', 'spikeball', 'basketball', 'journaling'],
-    isExecutive: true,
-    executiveRole: 'Senior Advisor'
-  },
-  {
-    id: 'gowri-biju',
-    name: 'Gowri Biju',
-    class: 'Alpha Epsilon',
-    major: 'Political Science and Data Science',
-    year: 'junior',
-    hometown: 'Pheonix, Arizona',
-    bio: 'Gowri is a junior studying Political Economy. He is from Phoenix, Arizona, and is part of the Alpha Epsilon class. He is interested in pursuing a career in corporate law or finance. In his free time, he likes to play crosswords, try different kinds of soups, and listen to Kendrick.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afc3c652eb3651e437_gowri-biju.png',
-    email: 'TBD',
-    interests: ['TBD'],
-    isExecutive: true,
-    executiveRole: 'VP Projects'
   },
   {
     id: 'suvan-kapoor',
@@ -141,6 +113,34 @@ export const executives: Brother[] = [
     interests: ['data analytics', 'product management', 'basketball', 'football', 'Drake', 'colognes', 'lifting'],
     isExecutive: true,
     executiveRole: 'Conference Coordination Chair'
+  },
+  {
+    id: 'rohin-prashanth',
+    name: 'Rohin Prashanth',
+    class: 'Alpha Zeta',
+    major: 'Political Science and Public Policy',
+    year: 'sophomore',
+    hometown: 'Bay Area, California',
+    bio: 'Rohin is a sophomore and part of the Alpha Zeta Class. He is from the Bay Area and is studying Political Science and Public Policy. He is interested in a career in civil law, social sector consulting, or government. Outside of his professional interests, he enjoys playing and watching football, listening to NBA Youngboy and Lil Tecca, and reading murder mysteries.',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c663dd46f865fefb56f_Rohin_Prashanth_AZClassFA25.JPG',
+    email: 'TBD',
+    interests: ['civil law', 'social sector consulting', 'government', 'football', 'NBA Youngboy', 'Lil Tecca', 'murder mysteries'],
+    isExecutive: true,
+    executiveRole: 'Finance Chair'
+  },
+  {
+    id: 'kanishk-vankayala',
+    name: 'Kanishk Vankayala',
+    class: 'Alpha Gamma',
+    major: 'Data Science',
+    year: 'senior',
+    hometown: 'Sacramento, California',
+    bio: 'Kanishk is a senior and part of the Alpha Gamma class studying Data Science. He is from Sacramento and is interested in tech consulting. He also enjoys playing spikeball, basketball, and journaling.',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afa6ff24ad4a4387bb_kanishk-vankayala.jpg',
+    email: 'kvankaya@berkeley.edu',
+    interests: ['tech consulting', 'spikeball', 'basketball', 'journaling'],
+    isExecutive: true,
+    executiveRole: 'Senior Advisor'
   },
 ];
 
@@ -599,7 +599,7 @@ export const regularBrothers: Brother[] = [
     year: 'sophomore',
     hometown: 'Mesa, Arizona',
     bio: 'Abhinav is a sophomore studying Computer Science and part of the Alpha Eta class. He is from Mesa, Arizona, and is professionally interested in startups, artificial intelligence, and software engineering. Outside of his professional interests, he enjoys lifting, hooping, and playing poker.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fd98d33e662d2b0a765f3_AEZSP26ALL-5%20-%20Abhinav%20Jinka%20(1)%20(1).jpeg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fd98d33e662d2b0a765f3_8e674a27c4a709dd2ec8d99c7ad46693_Abhi%20Jinka.jpg',
     email: 'TBD',
     interests: ['startups', 'artificial intelligence', 'software engineering', 'lifting', 'hooping', 'poker'],
     isExecutive: false
@@ -612,7 +612,7 @@ export const regularBrothers: Brother[] = [
     year: 'sophomore',
     hometown: 'Palo Alto, California',
     bio: 'Til is a sophomore in the Alpha Eta class. He is from Palo Alto, California and is majoring in applied math. He is interested in a career in biotech. He enjoys playing and watching sports, backpacking, and hiking.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdb1c9d2a71023a6bd283_Untitled%20design%20(1).jpg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdb1c9d2a71023a6bd283_666638214388f33e7e63a0a49f967068_Til%20K.jpg',
     email: 'TBD',
     interests: ['biotech', 'sports', 'backpacking', 'hiking'],
     isExecutive: false
@@ -625,7 +625,7 @@ export const regularBrothers: Brother[] = [
     year: 'sophomore',
     hometown: 'Cupertino, California',
     bio: 'Andrew is a sophomore and part of the Alpha Eta class. He is from Cupertino, California and is majoring in Computer Science. Professionally, he is interested in software, AI research, and startups. Additionally, he enjoys volleyball, poker, snowboarding and skiing, and pool.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdde9ad90ddf4676c94af_AEZSP26ALL-56%20(1)%20(1).jpg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdde9ad90ddf4676c94af_dfa8208b29903ffd0bd92ad381eb41e6_Andrew.jpg',
     email: 'TBD',
     interests: ['software', 'AI research', 'startups', 'volleyball', 'poker', 'snowboarding', 'skiing', 'pool'],
     isExecutive: false
@@ -638,7 +638,7 @@ export const regularBrothers: Brother[] = [
     year: 'sophomore',
     hometown: 'Dublin, Ohio',
     bio: 'Adi Mehta is a sophomore and part of the Alpha Eta class. He is from Dublin, Ohio and is double majoring in IEOR and EECS. Professionally, he is interested in finance and startups. Outside of his academics, he enjoys playing sports like basketball and pickleball, watching movies, and traveling the world.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fda5c601d6d4a6a12f18f_AEZSP26ALL-10%20-%20Aditya%20Mehta%20(1)%20(1)%20(2).jpg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fda5c601d6d4a6a12f18f_f41e3f1701032a8514f6aed5b5777dad_Adi%20Metha.jpg',
     email: 'TBD',
     interests: ['finance', 'startups', 'basketball', 'pickleball', 'movies', 'traveling'],
     isExecutive: false
@@ -664,7 +664,7 @@ export const regularBrothers: Brother[] = [
     year: 'sophomore',
     hometown: 'Santa Clara, California',
     bio: 'Aarya is a sophomore in the Alpha Eta class studying Data Science. He is from Santa Clara, California and is interested in artificial intelligence, startups, and investing. In his free time, Aarya enjoys listening to music, watching football and soccer, engaging in thoughtful debates, and exploring restaurants around the bay.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdc8878f802e2396d590d_AEZSP26ALL-2%20(1)%20(1).jpg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdc8878f802e2396d590d_8fc7ddc6f92ae9d82a7353817abbaa71_Aarya%20S.jpg',
     email: 'TBD',
     interests: ['artificial intelligence', 'startups', 'investing', 'music', 'football', 'soccer', 'debates', 'restaurants'],
     isExecutive: false
