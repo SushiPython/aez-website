@@ -88,7 +88,7 @@ export default function TimelinePage() {
                     <div className="flex items-start gap-6">
                       <div className="flex-shrink-0">
                         <img
-                          src="https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/68a7f7f29954b4d04aba7d81_IMG_4267.JPG"
+                          src="https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a727a8e2b45ccf85907f457_AEZSP26ALL-82%20(1).jpg"
                           alt="Info Session"
                           className="w-72 h-56 object-cover rounded-lg"
                         />
