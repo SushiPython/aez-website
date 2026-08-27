@@ -556,11 +556,11 @@ export const regularBrothers: Brother[] = [
     id: 'laiq-sorrell',
     name: 'Laiq Sorrell',
     class: 'Alpha Zeta',
-    major: 'Computer Science',
+    major: 'Computer Science and Economics',
     year: 'sophomore',
     hometown: 'Denver, Colorado',
     bio: 'Laiq is a sophomore in the Alpha Zeta class studying Computer Science. He is from Denver, Colorado and is interested in artificial intelligence, web development, and database management. He plans to pursue a career in software engineering. Outside of academics, he enjoys watching the Broncos, plot twist movies, good sushi, going to concerts, and hiking.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66515277d6167d4ab3_Laiq_Sorrell_AZClassFA25.jpg',
+    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a908e325b1af84968b19f61_Laiq_cropped.jpg',
     email: 'TBD',
     interests: ['artificial intelligence', 'web development', 'database management', 'software engineering', 'Broncos', 'movies', 'traveling', 'hiking', 'paddleboarding'],
     isExecutive: false
