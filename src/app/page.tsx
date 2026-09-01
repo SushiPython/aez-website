@@ -40,7 +40,7 @@ export default function Home() {
               Meet Our Brothers
             </Button>
             <Button
-              href="https://airtable.com/appziasqUIxt46Gwh/pagzqgUqNe5oEKFy7/form"
+              href="https://airtable.com/app2wqIRjAIKb4nBD/pagzqgUqNe5oEKFy7/form"
               size="lg"
               className="bg-ink/95 backdrop-blur-sm text-white hover:bg-white hover:text-neutral-900 px-8 py-4 text-lg font-semibold rounded-none border border-white/20 shadow-lg"
               style={{color: '#ffffff !important', textShadow: '0 2px 4px rgba(0, 0, 0, 0.8)', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)'}}

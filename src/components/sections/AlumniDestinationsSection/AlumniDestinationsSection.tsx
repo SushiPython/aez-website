@@ -14,10 +14,10 @@ export const AlumniDestinationsSection = ({ className = '' }: AlumniDestinations
         </p>
         <div className="max-w-6xl mx-auto">
           <Image
-            src="https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/65b24201cf035e83b6b9f75e_Screenshot%202024-01-25%20at%203.11.29%E2%80%AFAM.jpg"
-            alt="Alumni Destinations Map"
-            width={1400}
-            height={900}
+            src="/images/alumni/alumni-destinations-logos.png"
+            alt="Companies and universities where AEZ alumni have studied and worked"
+            width={2028}
+            height={880}
             className="w-full h-auto"
             priority
           />
@@ -25,4 +25,4 @@ export const AlumniDestinationsSection = ({ className = '' }: AlumniDestinations
       </div>
     </section>
   );
-}; 
+};

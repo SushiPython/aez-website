@@ -68,7 +68,7 @@ export default function TimelinePage() {
                         />
                       </div>
                       <div className="flex-1">
-                        <div className="text-[#3d0f19] font-bold text-sm mb-2">SATURDAY 9/5</div>
+                        <div className="text-[#3d0f19] font-bold text-sm mb-2">FRIDAY 9/4</div>
                         <h3 className="text-2xl font-merriweather font-bold mb-3">Rush Party</h3>
                         <div className="text-gray-600 mb-3">Follow @aezberkeley for details</div>
                         <p className="text-gray-700">
@@ -114,7 +114,7 @@ export default function TimelinePage() {
                     <div className="flex items-start gap-6">
                       <div className="flex-shrink-0">
                         <img
-                          src="https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/68a7f7cd31fce84d375caa8f_IMG_0959.JPG"
+                          src="/images/timeline/social-night.png"
                           alt="Meet and Greet"
                           className="w-72 h-56 object-cover rounded-lg"
                         />
@@ -146,7 +146,7 @@ export default function TimelinePage() {
                         />
                       </div>
                       <div className="flex-1">
-                        <div className="text-[#3d0f19] font-bold text-sm mb-2">9/10 | 7:00 PM</div>
+                        <div className="text-[#3d0f19] font-bold text-sm mb-2">9/10 | 7:59 PM</div>
                         <h3 className="text-2xl font-merriweather font-bold mb-3">Applications Due</h3>
                         <div className="text-gray-600 mb-3">Location: Online Submission</div>
                         <p className="text-gray-700">
