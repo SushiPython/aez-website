@@ -26,6 +26,11 @@ export const navigation: NavItem[] = [
     external: true,
   },
   {
+    label: 'Donate',
+    href: 'https://donate.stripe.com/test_cNiaEZ75j3Rw1JN7v173G00',
+    external: true,
+  },
+  {
     label: 'Join Us',
     href: '#',
     dropdown: [
