@@ -27,7 +27,7 @@ export const navigation: NavItem[] = [
   },
   {
     label: 'Donate',
-    href: 'https://donate.stripe.com/test_cNiaEZ75j3Rw1JN7v173G00',
+    href: 'https://buy.stripe.com/test_28EdRbdtH5ZE0FJ3eL73G01',
     external: true,
   },
   {
