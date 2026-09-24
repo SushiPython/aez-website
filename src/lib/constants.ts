@@ -27,8 +27,19 @@ export const navigation: NavItem[] = [
   },
   {
     label: 'Donate',
-    href: 'https://buy.stripe.com/test_28EdRbdtH5ZE0FJ3eL73G01',
-    external: true,
+    href: '/donate',
+    dropdown: [
+      {
+        label: 'Venmo',
+        href: 'https://www.venmo.com/u/aez-berkeley',
+        external: true,
+      },
+      {
+        label: 'Stripe',
+        href: 'https://buy.stripe.com/test_28EdRbdtH5ZE0FJ3eL73G01',
+        external: true,
+      },
+    ],
   },
   {
     label: 'Join Us',
