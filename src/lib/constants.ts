@@ -36,7 +36,7 @@ export const navigation: NavItem[] = [
       },
       {
         label: 'Stripe',
-        href: 'https://buy.stripe.com/test_28EdRbdtH5ZE0FJ3eL73G01',
+        href: 'https://buy.stripe.com/eVqbJ18wzc8q9jb8vA24000',
         external: true,
       },
     ],
