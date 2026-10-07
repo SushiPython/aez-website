@@ -186,7 +186,7 @@ function BrotherCard({ brother, showExecutiveTag }: BrotherCardProps) {
         
         {/* Executive Tag */}
         {showExecutiveTag && brother.isExecutive && brother.executiveRole && (
-          <div className={`absolute top-3 left-3 z-10 m-1 ${brother.linkedin ? 'max-w-[calc(100%-8.5rem)]' : ''}`}>
+          <div className={`absolute top-3 left-3 z-10 m-1 ${brother.linkedin ? 'max-w-[calc(100%-5rem)]' : ''}`}>
             <span className="inline-block bg-ink/95 backdrop-blur-sm text-white px-2 py-1 text-sm font-medium uppercase tracking-caps shadow-lg border border-white/20" style={{color: '#ffffff !important', textShadow: '0 2px 4px rgba(0, 0, 0, 0.8)', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.1)'}}>
               {brother.executiveRole}
             </span>
@@ -201,12 +201,11 @@ function BrotherCard({ brother, showExecutiveTag }: BrotherCardProps) {
               target="_blank"
               rel="noopener noreferrer"
               onClick={(e) => e.stopPropagation()}
-              className="inline-flex items-center gap-1.5 bg-black/50 backdrop-blur-sm text-white px-2 py-1 text-sm font-medium underline underline-offset-4 decoration-white/60 hover:decoration-white hover:bg-black/70 shadow-lg border border-white/20 transition-colors"
-              style={{textShadow: '0 2px 4px rgba(0, 0, 0, 0.8)'}}
+              className="block text-white hover:text-white/80 hover:scale-110 transition-all"
+              style={{filter: 'drop-shadow(0 2px 4px rgba(0, 0, 0, 0.8))'}}
               aria-label={`${brother.name} on LinkedIn`}
             >
-              <LinkedinIcon className="h-4 w-4" />
-              LinkedIn
+              <LinkedinIcon className="h-7 w-7" />
             </a>
           </div>
         )}
