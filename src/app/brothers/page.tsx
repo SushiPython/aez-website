@@ -2,12 +2,12 @@
 
 import { useState, useMemo, useEffect } from 'react';
 import Image from 'next/image';
-import { Linkedin } from 'lucide-react';
 import { executives, regularBrothers } from '@/data/brothers';
 import { Brother } from '@/types';
 import { brotherClasses } from '@/lib/constants';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
+import { LinkedinIcon } from '@/components/ui/LinkedinIcon';
 
 export default function BrothersPage() {
   const [selectedClass, setSelectedClass] = useState<string>('all');
@@ -210,24 +210,23 @@ function BrotherCard({ brother, showExecutiveTag }: BrotherCardProps) {
           className="absolute inset-0 opacity-0 transition-all duration-300 p-4 flex flex-col justify-end max-md:group-data-[expanded=true]:opacity-100 md:group-hover:opacity-100"
           style={{background: 'linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 50%, transparent 100%)'}}
         >
-          <div className="flex items-start justify-between gap-3 mb-2">
-            <div className="text-2xl font-serif font-semibold text-white" style={{color: '#ffffff !important', WebkitTextFillColor: '#ffffff !important', textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)'}}>{brother.name}</div>
+          <div className="text-2xl font-serif font-semibold mb-2 text-white" style={{color: '#ffffff !important', WebkitTextFillColor: '#ffffff !important', textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)'}}>{brother.name}</div>
+          <div className="space-y-1 text-sm mb-3">
+            <p className="text-xs uppercase tracking-caps text-gray-400 font-medium">{brother.class}</p>
+            <p className="text-white/95 font-medium">{brother.major}</p>
             {brother.linkedin && (
               <a
                 href={brother.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => e.stopPropagation()}
-                className="p-1 text-white hover:text-white/80 transition-colors pointer-events-none md:group-hover:pointer-events-auto max-md:group-data-[expanded=true]:pointer-events-auto"
+                className="inline-flex items-center gap-1.5 pt-1 text-white font-medium underline underline-offset-4 decoration-white/60 hover:decoration-white hover:text-white/90 transition-colors pointer-events-none md:group-hover:pointer-events-auto max-md:group-data-[expanded=true]:pointer-events-auto"
                 aria-label={`${brother.name} on LinkedIn`}
               >
-                <Linkedin className="h-6 w-6" />
+                <LinkedinIcon className="h-4 w-4" />
+                LinkedIn
               </a>
             )}
-          </div>
-          <div className="space-y-1 text-sm mb-3">
-            <p className="text-xs uppercase tracking-caps text-gray-400 font-medium">{brother.class}</p>
-            <p className="text-white/95 font-medium">{brother.major}</p>
           </div>
           <p className="text-sm text-white/95 leading-relaxed line-clamp-12" style={{textShadow: '0 1px 2px rgba(0, 0, 0, 0.3)'}}>{brother.bio}</p>
         </div>
