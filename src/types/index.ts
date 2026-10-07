@@ -15,6 +15,7 @@ export interface Brother {
   bio: string;
   image: string;
   email: string;
+  linkedin?: string;
   interests: string[];
   isExecutive?: boolean;
   executiveRole?: string;
