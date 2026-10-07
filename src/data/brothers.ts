@@ -572,6 +572,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Varun is a sophomore in the Alpha Zeta class, majoring in EECS. Originally from Fremont, CA, he aspires to pursue a career in engineering and startups. In his free time, Varun loves to play and watch sports as well as spend time outdoors.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c6604a491dd5c027e70_Varun_Rao_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/v-rao/',
     interests: ['engineering', 'startups', 'sports', 'outdoors'],
     isExecutive: false
   },
