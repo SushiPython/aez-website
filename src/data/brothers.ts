@@ -12,6 +12,7 @@ export const executives: Brother[] = [
     bio: 'Sreekar is a senior and part of the Alpha Beta Class. He is from Orlando, Florida and is majoring in EECS. He is interested in a career in investing or startups. Outside of his professional interests, he enjoys playing basketball, producing music, prediction markets, and collecting cologne.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b198aa6899131b2073_sreekar-nagulapalli.jpg',
     email: 'sreekar_nagul@berkeley.edu',
+    linkedin: 'https://www.linkedin.com/in/sreekarnagul/',
     interests: ['investing', 'startups', 'basketball', 'music production', 'prediction markets'],
     isExecutive: true,
     executiveRole: 'President'
@@ -26,6 +27,7 @@ export const executives: Brother[] = [
     bio: 'Zain is a junior studying Business Administration. He is from Redwood City, California, and is part of the Alpha Delta class. Zain is very interested in sports and finance and is looking to pursue a career combining both, either in banking, strategy, or management. He enjoys playing basketball, soccer, and chess, going to the gym, and occasionally dabbles in poker.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b1bffe6d0d90c56260_0a740b84db2931d107c5915e74567fb2_zain-passi.png',
     email: 'zainpassi@berkeley.edu',
+    linkedin: 'https://www.linkedin.com/in/zainpassi/',
     interests: ['sports', 'finance', 'basketball', 'soccer', 'chess', 'poker'],
     isExecutive: true,
     executiveRole: 'External VP'
@@ -40,6 +42,7 @@ export const executives: Brother[] = [
     bio: 'Tanay is a junior in the Alpha Epsilon class studying in the LSBE program. He was born just outside Boston and mostly brought up here in the Bay, but remains a proud Bostonian. Tanay conducts research on muscular injuries, and is generally interested in biotech and healthcare banking. He also enjoys hooping, surfing, mind-bending movies, and Swedish House Mafia.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b12d64b64c03e46729_tanay-doppalapudi.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/tanaydopp/',
     interests: ['biotech', 'athletic performance research', 'basketball', 'philosophical films', 'lifting'],
     isExecutive: true,
     executiveRole: 'Internal VP'
@@ -54,6 +57,7 @@ export const executives: Brother[] = [
     bio: 'Gowri is a junior studying Political Economy. He is from Phoenix, Arizona, and is part of the Alpha Epsilon class. He is interested in pursuing a career in corporate law or finance. In his free time, he likes to play crosswords, try different kinds of soups, and listen to Kendrick.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afc3c652eb3651e437_gowri-biju.png',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/gowri-biju/',
     interests: ['TBD'],
     isExecutive: true,
     executiveRole: 'VP Projects'
@@ -68,6 +72,7 @@ export const executives: Brother[] = [
     bio: 'Srithan is a sophomore and part of the Alpha Zeta class. He is from Fremont, California and is majoring in Molecular and Cellular Biology and Business Administration. He is interested in a career in healthcare and investment banking. Outside of his professional interests, he enjoys playing basketball, DJing, lifting, fishing, and collecting cologne.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66b7c7329f9cc7080c_%20Srithan_Meeniga_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/srithanmeeniga/',
     interests: ['healthcare', 'investment banking', 'basketball', 'DJing', 'lifting', 'fishing', 'cologne'],
     isExecutive: true,
     executiveRole: 'Rush Chair'
@@ -82,6 +87,7 @@ export const executives: Brother[] = [
     bio: 'Neel Gandhi is a sophomore in the Alpha Zeta Class. He is from Richmond, Virginia and is majoring in EECS. Professionally, he is interested in quantitative finance, sports analytics, and software engineering. For fun, he enjoys playing sports such as Basketball, Tennis, and Pickleball. He also enjoys playing poker, watching sports, and backpacking.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66ee50385e55e1a87c_Neel_Gandhi_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/neel-gandhi0/',
     interests: ['quantitative finance', 'sports analytics', 'software engineering', 'basketball', 'tennis', 'pickleball', 'poker', 'backpacking'],
     isExecutive: true,
     executiveRole: 'Technology Chair'
@@ -96,6 +102,7 @@ export const executives: Brother[] = [
     bio: 'Yadukrishna is a junior studying Applied Mathematics. He is from Fremont, California, and a part of the Alpha Epsilon class. His career goals are at the intersection of physics and computer science, particularly quantum computing research & development, as well as LLM design. His other academic interests include history and linguistics, and his personal hobbies are basketball, chess, and Childish Gambino\'s music.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b394d9eef34f94f0fb_f6ba97eacf5768f97ac1657fa426c416_yadukrishna-raghu.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/yadukrishna-raghu/',
     interests: ['quantum computing', 'LLM design', 'history', 'linguistics', 'basketball', 'chess', 'Childish Gambino'],
     isExecutive: true,
     executiveRole: 'Alumni Chair'
@@ -110,6 +117,7 @@ export const executives: Brother[] = [
     bio: 'Suvan is a junior from Los Angeles, studying Data Science and Economics and is part of the Alpha Epsilon class. He is interested in pursuing a career in data analytics or product management. Outside of his studies, he enjoys watching and playing basketball, football, listening to Drake, collecting colognes, and lifting.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b1fcb456aa5824cbb7_suvan-kapoor.png',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/suvankapoor/',
     interests: ['data analytics', 'product management', 'basketball', 'football', 'Drake', 'colognes', 'lifting'],
     isExecutive: true,
     executiveRole: 'Conference Coordination Chair'
@@ -124,6 +132,7 @@ export const executives: Brother[] = [
     bio: 'Rohin is a sophomore and part of the Alpha Zeta Class. He is from the Bay Area and is studying Political Science and Public Policy. He is interested in a career in civil law, social sector consulting, or government. Outside of his professional interests, he enjoys playing and watching football, listening to NBA Youngboy and Lil Tecca, and reading murder mysteries.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c663dd46f865fefb56f_Rohin_Prashanth_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/rohin-prashanth/',
     interests: ['civil law', 'social sector consulting', 'government', 'football', 'NBA Youngboy', 'Lil Tecca', 'murder mysteries'],
     isExecutive: true,
     executiveRole: 'Finance Chair'
@@ -138,6 +147,7 @@ export const executives: Brother[] = [
     bio: 'Kanishk is a senior and part of the Alpha Gamma class studying Data Science. He is from Sacramento and is interested in tech consulting. He also enjoys playing spikeball, basketball, and journaling.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afa6ff24ad4a4387bb_kanishk-vankayala.jpg',
     email: 'kvankaya@berkeley.edu',
+    linkedin: 'https://www.linkedin.com/in/kanishk-vankayala/',
     interests: ['tech consulting', 'spikeball', 'basketball', 'journaling'],
     isExecutive: true,
     executiveRole: 'Senior Advisor'
@@ -169,6 +179,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Aayush is a senior studying Data Science. He is from Fremont, California, and is part of the Alpha Gamma class. Aayush is pursuing a career in software engineering and is primarily interested in startups and machine learning. He also enjoys listening to music, playing tennis, and running.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17af6efd4181178c377a_aayush-shah.png',
     email: 'aayush.shah@berkeley.edu',
+    linkedin: 'https://www.linkedin.com/in/aayush-n-shah/',
     interests: ['software engineering', 'startups', 'machine learning', 'tennis', 'running'],
     isExecutive: false
   },
@@ -211,6 +222,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Aayush is a senior studying Data Science. He is from Fremont, California, and is part of the Alpha Gamma class. Aayush is pursuing a career in software engineering and is primarily interested in startups and machine learning. He also enjoys listening to music, playing tennis, and running.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17af6efd4181178c377a_aayush-shah.png',
     email: 'aayush.shah@berkeley.edu',
+    linkedin: 'https://www.linkedin.com/in/aayush-n-shah/',
     interests: ['software engineering', 'startups', 'machine learning', 'tennis', 'running'],
     isExecutive: false
   },
@@ -224,6 +236,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Bartev is a junior from Lake Forest, California studying Business Administration through the Haas Speiker program and is part of the Alpha Delta class. He is interested in pursuing a career in finance or investment banking. Outside of his professional interests, he enjoys playing soccer, DJing, and listening to summer house.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17af252765eb515cefe1_bartev-stepanian.jpg',
     email: '',
+    linkedin: 'https://www.linkedin.com/in/bartevstepanian/',
     interests: ['soccer', 'DJing', 'summer house'],
     isExecutive: false
   },
@@ -237,6 +250,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Aaron Ratnavel is a senior studying Business Administration and Economics and a member of the Alpha Epsilon class. Originally from Toronto, Canada, Aaron is passionate about careers in finance—especially roles tied to investing, corporate banking, and real-world economic impact. Outside of academics and professional pursuits, he enjoys sports, 2019 Kawhi Leonard highlights, cooking, chicken sandwiches, and Dr. Doofenshmirtz.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17aea74169cffc82ac92_aaron-ratnavel.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/aaronratnavel/',
     interests: ['sports', 'cooking', 'chicken sandwiches'],
     isExecutive: false
   },
@@ -250,6 +264,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Abhi is a senior studying Economics and Environmental Engineering & Strategic Management. He is part of the Alpha Beta class, coming from Sacramento, CA. Abhi hopes to pursue a career at the intersection of business and sustainability. Outside of his professional interests, Abhi loves spending time outdoors, traveling, playing sports, and listening to music.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17ae2965d133da949e0f_abhinav-mukkamala.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/abhinavmukkamala/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -263,6 +278,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Kabir Dua is a junior from San Jose, California, studying Data Science and Economics; he also spent a significant portion of his childhood growing up in Singapore and traveling all around Southeast Asia. He is a part of the Alpha Delta class and is interested in pursuing a career in finance or management/sustainability consulting. In his free time, Kabir enjoys collecting vinyl records, hypertrophy training, and listening to Spanish music. ',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690d2020754afab994a0c4e6_kabir_dua_crop.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/kabir-dua/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -276,6 +292,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Sebastian is a second-year student pursuing a dual-degree in Economics and Applied Mathematics. He is from Scottsdale, Arizona and is a part of the Alpha Delta class. Professionally, he is interested in pursuing a career in hedge funds or equity research. In his free time, he enjoys playing golf with his friends and family, skiing, solving crossword puzzles, watching NFL games, and day-trading.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b1ef92467957fb07be_sebastian-reddy.png',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/-sebastian-reddy/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -289,6 +306,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Samhith is a second-year EECS student at UC Berkeley from Phoenix, AZ and is a part of the Alpha Delta class. He is aiming for a career in investment banking and private equity. He founded his first business at 12, Sync Visual Media, a media production agency, and still manages it full-time while in school. In his free time, he enjoys working out, traveling, following Formula 1 and the Phoenix Suns, and spending time with family.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b0365574585e9398c3_samhith-padala.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/samhithpadala/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -302,6 +320,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Gowri is a junior studying Political Economy. He is from Phoenix, Arizona, and is part of the Alpha Epsilon class. He is interested in pursuing a career in corporate law or finance. In his free time, he likes to play crosswords, try different kinds of soups, and listen to Kendrick.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afc3c652eb3651e437_gowri-biju.png',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/gowri-biju/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -315,6 +334,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Arya is a junior studying Industrial Engineering & Operations Research. He is from Linwood, New Jersey, and is a part of the Alpha Epsilon class. He is interested in pursuing a career in real estate private equity. Outside of his professional interests, Arya enjoys collecting cologne and trekking, and has a passion for BMW project builds.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17aebb98ba96084bc1cb_arya-patel.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/aryapatel9/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -328,6 +348,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Abhi is a junior from San Jose, California and part of the Alpha Epsilon class. He is majoring in EECS and his professional interests lie in software engineering, startups, and venture capital. Outside of work, Abhi enjoys watching the Warriors, playing poker and trying new restaurants in Berkeley with friends.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6912cea79e0b1fe6bece2338_bellapu-crop.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/abhinav-bellapu/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -341,6 +362,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Sid is from Orlando, Florida and is majoring in EECS and Business through the M.E.T. program. His professional interests include finance and startups. Outside of work, he enjoys traveling and has been to 13 countries so far.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b192d46af88209e29c_99b6dca94fd85cd4e291cf1c3cea271a_sid-kasi.jpeg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/siddarth-kasi/',
     interests: ['startups', 'finance', 'traveling', 'lifting', 'trading', 'house music'],
     isExecutive: false
   },
@@ -354,6 +376,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Joshua is a junior from Cupertino, California studying Data Science and Economics and is part of the Alpha Delta class. He is passionate about pursuing a career in finance, tech, or the intersection of both. Outside of the classroom, he is a part of Cal\'s club squash team and will continue to participate in professional tournaments across the country.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afaf0bd8772c5c53f6_joshua-thomas.png',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/joshuathomas06/',
     interests: ['finance', 'tech', 'squash', 'professional tournaments'],
     isExecutive: false
   },
@@ -367,6 +390,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Arjun is a junior studying Economics and Film. He is from Palo Alto, California and is apart of the Alpha Epsilon class. He hopes to pursue a career in the music video industry as he currently works with A$AP Rocky. In his free time he enjoys fashion, playing sports, and listening to Playboi Carti.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17aeaa6c9142817aba38_arjun-parmar.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/arjun-parmar2026/',
     interests: ['music video industry', 'fashion', 'sports', 'Playboi Carti'],
     isExecutive: false
   },
@@ -380,6 +404,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Shivm is a junior from Los Angeles studying Molecular Cell Biology and Economics in the Alpha Epsilon class. He is interested in pursuing a career in biotech and finance, specifically healthcare & life science investment banking and venture capital. Outside of his professional interests, Shivm loves to play tennis, poker, cooking, football, basketball, Drake, Carti, Lil Tecca, trading stocks, and Chipotle.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b1847d259d9c607b48_shivm-patel.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/shivm-patel/',
     interests: ['biotech', 'finance', 'healthcare investment banking', 'venture capital', 'tennis', 'poker', 'cooking', 'football', 'basketball', 'colognes', 'Drake', 'Future', 'Carti', 'Lil Tecca', 'trading stocks', 'Chipotle'],
     isExecutive: false
   },
@@ -393,6 +418,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Yadukrishna is a junior studying Applied Mathematics. He is from Fremont, California, and a part of the Alpha Epsilon class. His career goals are at the intersection of physics and computer science, particularly quantum computing research & development, as well as LLM design. His other academic interests include history and linguistics, and his personal hobbies are basketball, chess, and Childish Gambino\'s music.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b394d9eef34f94f0fb_yadukrishna-raghu.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/yadukrishna-raghu/',
     interests: ['quantum computing', 'LLM design', 'history', 'linguistics', 'basketball', 'chess', 'Childish Gambino'],
     isExecutive: false
   },
@@ -406,6 +432,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Vikram is a junior studying Political Science, Public Policy, and Economics and is a part of the Alpha Epsilon class. He is from the Bay Area and is interested in pursuing Public Service Consulting and Government Contracting. In his free time, Vikram likes to make videos about politics, study history, play pickleball/table tennis, and listen to alternative trap and R&B.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b11df7c77668ccc485_vikram-ravi.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/vikravi/',
     interests: ['public service consulting', 'government contracting', 'politics', 'history', 'pickleball', 'table tennis', 'alternative trap', 'R&B'],
     isExecutive: false
   },
@@ -419,6 +446,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Neil is a senior in the Alpha Beta Class. He is from Saratoga, CA, and is studying Data Science and Applied Math. He is interested in software, GenAI, functional programming, and startups. Outside of his professional interests, he enjoys weightlifting, electric guitar, and gaming.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b0b67079630cb08608_neil-kamath.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/neil-kamath/',
     interests: ['software', 'GenAI', 'functional programming', 'startups', 'weightlifting', 'electric guitar', 'gaming'],
     isExecutive: false
   },
@@ -432,6 +460,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Neel Gandhi is a sophomore in the Alpha Zeta Class. He is from Richmond, Virginia and is majoring in EECS. Professionally, he is interested in quantitative finance, sports analytics, and software engineering. For fun, he enjoys playing sports such as Basketball, Tennis, and Pickleball. He also enjoys playing poker, watching sports, and backpacking.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66ee50385e55e1a87c_Neel_Gandhi_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/neel-gandhi0/',
     interests: ['quantitative finance', 'sports analytics', 'software engineering', 'basketball', 'tennis', 'pickleball', 'poker', 'backpacking'],
     isExecutive: false
   },
@@ -445,6 +474,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Atul is a sophomore and part of the Alpha Zeta Class. He is from Fremont, California and is majoring in applied math. He is interested in a career in software engineering and quantitative finance. Outside of his professional interests, he enjoys playing basketball, soccer, and lifting.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c65c1f8111b8c30fdad_Atul_Kamath_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/atulrkamath/',
     interests: ['software engineering', 'quantitative finance', 'basketball', 'soccer', 'lifting'],
     isExecutive: false
   },
@@ -458,6 +488,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Ayan Kawlekar is a sophomore in the Alpha Zeta Class, he is from Robbinsville, New Jersey and is majoring in Applied Mathematics and Data Science. Professionally, he is interested in venture capital and software engineering. For fun, he enjoys playing sports such as Squash and Volleyball, hiking, and he is learning to DJ.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c662e52bb821e4b9034_Ayan_Kawlekar_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/ayan-kawlekar/',
     interests: ['venture capital', 'software engineering', 'squash', 'volleyball', 'hiking', 'DJing'],
     isExecutive: false
   },
@@ -471,6 +502,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Ethan is a sophomore and part of the Alpha Zeta class. He is from Fremont, California and is majoring in Computer Science and Data Science. He is interested in a career in quantitative trading and software engineering. Outside of his professional interests, he enjoys watching movies, hooping, lifting, and listening to music.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c667c56738ceca08df0_Ethan_Lau_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/ethanlauuu/',
     interests: ['quantitative trading', 'software engineering', 'movies', 'basketball', 'lifting', 'music'],
     isExecutive: false
   },
@@ -484,6 +516,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Srithan is a sophomore and part of the Alpha Zeta class. He is from Fremont, California and is majoring in Molecular and Cellular Biology and Business Administration. He is interested in a career in healthcare and investment banking. Outside of his professional interests, he enjoys playing basketball, DJing, lifting, fishing, and collecting cologne.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66b7c7329f9cc7080c_%20Srithan_Meeniga_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/srithanmeeniga/',
     interests: ['healthcare', 'investment banking', 'basketball', 'DJing', 'lifting', 'fishing', 'cologne'],
     isExecutive: false
   },
@@ -497,6 +530,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Reyansh is a sophomore and part of the Alpha Zeta class. He is from Fremont, California and is majoring in Computer Science and Data Science. He is interested in a career in quantitative trading and software engineering. Outside of his professional interests, he enjoys cooking, hiking, poker, and watching movies.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c66fd520677a25433fb_Reyansh_Pallikonda_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/reyanshpallikonda/',
     interests: ['quantitative trading', 'software engineering', 'cooking', 'hiking', 'poker', 'movies'],
     isExecutive: false
   },
@@ -510,6 +544,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Rohin is a sophomore and part of the Alpha Zeta Class. He is from the Bay Area and is studying Political Science and Public Policy. He is interested in a career in civil law, social sector consulting, or government. Outside of his professional interests, he enjoys playing and watching football, listening to NBA Youngboy and Lil Tecca, and reading murder mysteries.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c663dd46f865fefb56f_Rohin_Prashanth_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/rohin-prashanth/',
     interests: ['civil law', 'social sector consulting', 'government', 'football', 'NBA Youngboy', 'Lil Tecca', 'murder mysteries'],
     isExecutive: false
   },
@@ -523,6 +558,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Mohith is a sophomore and part of the Alpha Zeta pledge class. He is from Redmond, Washington, and he is majoring in EECS. Professionally, he is interested in a career in software or hardware engineering. Outside of his professional interests, he likes to lift weights, watch football, and go to concerts.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c653d894583d4bab2e3_Mohith_Ram_Narendra%20Babu_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/mohith-ram-narendra-babu/',
     interests: ['software engineering', 'hardware engineering', 'lifting', 'football', 'concerts'],
     isExecutive: false
   },
@@ -536,6 +572,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Varun is a sophomore in the Alpha Zeta class, majoring in EECS. Originally from Fremont, CA, he aspires to pursue a career in engineering and startups. In his free time, Varun loves to play and watch sports as well as spend time outdoors.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c6604a491dd5c027e70_Varun_Rao_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/v-rao/',
     interests: ['engineering', 'startups', 'sports', 'outdoors'],
     isExecutive: false
   },
@@ -549,6 +586,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Zahm is a sophomore in the Alpha Zeta Class. He is from Chino Hills, California and is majoring in Data Science. He is interested in product management, consulting, and cybersecurity. In his free time, he loves weightlifting, waterpolo, biking, and basketball. He also enjoys collecting Pokemon cards, colognes, playing poker, listening to EDM/techno, and eating ice cream.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/69ed135aa92fc3af499a40c5_zahm_crop.jpeg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/zahm-siyed/',
     interests: ['product management', 'consulting', 'cybersecurity', 'weightlifting', 'waterpolo', 'biking', 'basketball', 'Pokemon cards', 'colognes', 'poker', 'EDM/techno'],
     isExecutive: false
   },
@@ -562,6 +600,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Laiq is a sophomore in the Alpha Zeta class studying Computer Science. He is from Denver, Colorado and is interested in artificial intelligence, web development, and database management. He plans to pursue a career in software engineering. Outside of academics, he enjoys watching the Broncos, plot twist movies, good sushi, going to concerts, and hiking.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a908e325b1af84968b19f61_Laiq_cropped.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/laiqsorrell/',
     interests: ['artificial intelligence', 'web development', 'database management', 'software engineering', 'Broncos', 'movies', 'traveling', 'hiking', 'paddleboarding'],
     isExecutive: false
   },
@@ -575,6 +614,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Nidhish is a sophomore majoring in Business Administration and Data Science. He is from Fremont, California and part of the Alpha Zeta class. He is interested in investment banking, entrepreneurship, and investing. Outside of school, he enjoys backpacking in new states, hosting functions, reading insightful non-fiction, and late night workouts.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/69ec165de1442474880fa8d7_nidhish_crop.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/nidhish-tekkam/',
     interests: ['investment banking', 'entrepreneurship', 'investing', 'backpacking', 'hosting', 'non-fiction', 'workouts'],
     isExecutive: false
   },
@@ -588,6 +628,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Dhruv is a sophomore studying EECS and is a part of the Alpha Zeta class. He is from Boston, Massachusetts, and is professionally interested in startups, venture capital, and quantitative finance. In his free time, he enjoys golfing, spending time outdoors, exploring new genres of music, and cheering on the Boston sports teams.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c661368602436581a1e_Dhruv_Vallurupalli_AZClassFA25.JPG',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/dhruv-val/',
     interests: ['startups', 'venture capital', 'quantitative finance', 'golfing', 'outdoors', 'music', 'Boston sports'],
     isExecutive: false
   },
@@ -601,6 +642,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Abhinav is a sophomore studying Computer Science and part of the Alpha Eta class. He is from Mesa, Arizona, and is professionally interested in startups, artificial intelligence, and software engineering. Outside of his professional interests, he enjoys lifting, hooping, and playing poker.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fd98d33e662d2b0a765f3_8e674a27c4a709dd2ec8d99c7ad46693_Abhi%20Jinka.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/abhinavjinka/',
     interests: ['startups', 'artificial intelligence', 'software engineering', 'lifting', 'hooping', 'poker'],
     isExecutive: false
   },
@@ -614,6 +656,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Til is a sophomore in the Alpha Eta class. He is from Palo Alto, California and is majoring in applied math. He is interested in a career in biotech. He enjoys playing and watching sports, backpacking, and hiking.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdb1c9d2a71023a6bd283_666638214388f33e7e63a0a49f967068_Til%20K.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/tilman-kareht/',
     interests: ['biotech', 'sports', 'backpacking', 'hiking'],
     isExecutive: false
   },
@@ -627,6 +670,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Andrew is a sophomore and part of the Alpha Eta class. He is from Cupertino, California and is majoring in Computer Science. Professionally, he is interested in software, AI research, and startups. Additionally, he enjoys volleyball, poker, snowboarding and skiing, and pool.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdde9ad90ddf4676c94af_dfa8208b29903ffd0bd92ad381eb41e6_Andrew.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/andrewli07/',
     interests: ['software', 'AI research', 'startups', 'volleyball', 'poker', 'snowboarding', 'skiing', 'pool'],
     isExecutive: false
   },
@@ -640,6 +684,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Adi Mehta is a sophomore and part of the Alpha Eta class. He is from Dublin, Ohio and is double majoring in IEOR and EECS. Professionally, he is interested in finance and startups. Outside of his academics, he enjoys playing sports like basketball and pickleball, watching movies, and traveling the world.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fda5c601d6d4a6a12f18f_f41e3f1701032a8514f6aed5b5777dad_Adi%20Metha.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/adityamehta-/',
     interests: ['finance', 'startups', 'basketball', 'pickleball', 'movies', 'traveling'],
     isExecutive: false
   },
@@ -653,6 +698,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Neel Sijp is a sophomore studying economics and data science. He is from San Carlos, California, and is interested in pursuing a career in finance or product management. In his free time, he enjoys playing tennis, listening to house music, and traveling.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fd92550fc4f5023273df9_IMG_1380%20-%20Neel%20Cornelis%20Sijp%20(1)%20(1).jpeg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/neelsijp/',
     interests: ['finance', 'product management', 'tennis', 'house music', 'traveling'],
     isExecutive: false
   },
@@ -666,6 +712,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Aarya is a sophomore in the Alpha Eta class studying Data Science. He is from Santa Clara, California and is interested in artificial intelligence, startups, and investing. In his free time, Aarya enjoys listening to music, watching football and soccer, engaging in thoughtful debates, and exploring restaurants around the bay.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6a6fdc8878f802e2396d590d_8fc7ddc6f92ae9d82a7353817abbaa71_Aarya%20S.jpg',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/aarya-srinivasan/',
     interests: ['artificial intelligence', 'startups', 'investing', 'music', 'football', 'soccer', 'debates', 'restaurants'],
     isExecutive: false
   },
@@ -679,6 +726,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Aadi is a senior studying Business Administration and Data Science. He is from Redmond, Washington, and is part of the Alpha Beta class. Aadi is pursuing a career in finance and is interested in investing and entrepreneurship. He also enjoys going to the gym, cooking, and listening to R&B music.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17ae4708a653ed14dd90_f3062321b5a5bfc7cc7c68f3aa77432b_aadi-agrawal.jpg',
     email: 'aadia12@berkeley.edu',
+    linkedin: 'https://www.linkedin.com/in/aadiagrawal05/',
     interests: ['finance', 'investing', 'entrepreneurship', 'cooking', 'R&B music'],
     isExecutive: false
   },
@@ -692,6 +740,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Adith is a senior studying Data Science and Applied Math. He is from San Ramon, California, and is part of the Alpha Delta class. Adith is interested in pursuing a career in software engineering, specifically machine learning, backend, and infrastructure. In his free time he enjoys house music, guitar, traveling, and anything outdoors like hiking and snowboarding.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17afdf3fc303ee63f229_adith-mohanty.png',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/adithmohanty/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -705,6 +754,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Praneel is a senior studying Materials Science and Engineering. He is from Cupertino, California, and is part of the Alpha Delta class. He is interested in pursuing a career in renewable energy, green tech, or semiconductors. In his free time, he enjoys going to the gym, watching superhero movies, cooking, and listening to music.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b18a506ad12ffeb909_praneel-pantula.png',
     email: 'TBD',
+    linkedin: 'https://www.linkedin.com/in/praneelpantula/',
     interests: ['TBD'],
     isExecutive: false
   },
@@ -718,6 +768,7 @@ export const regularBrothers: Brother[] = [
     bio: 'Neelesh is a senior and part of the Alpha Beta Class. He is from Cupertino, California and intends to double major in EECS and IEOR. He is interested in a career in computer science or quantitative finance. Outside of his professional interests, he enjoys playing spikeball, watching movies, and traveling.',
     image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/690b17b02b6bc833f1049a36_neelesh-bokkisam.jpg',
     email: 'neeleshbokkisam@berkeley.edu',
+    linkedin: 'https://www.linkedin.com/in/neeleshbokkisam/',
     interests: ['computer science', 'quantitative finance', 'spikeball', 'movies', 'traveling'],
     isExecutive: false
   }
