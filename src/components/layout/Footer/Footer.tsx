@@ -1,5 +1,6 @@
 import React from 'react';
-import { Instagram, Linkedin, Mail } from 'lucide-react';
+import { Instagram, Mail } from 'lucide-react';
+import { LinkedinIcon } from '@/components/ui/LinkedinIcon';
 import { cn } from '@/lib/utils';
 import { ComponentProps } from '@/types';
 import { socialLinks } from '@/lib/constants';
@@ -41,7 +42,7 @@ const Footer = React.forwardRef<HTMLElement, FooterProps>(
                 className="p-2 text-neutral-400 hover:text-white transition-colors duration-200 rounded-lg hover:bg-neutral-800"
                 aria-label="Connect with us on LinkedIn"
               >
-                <Linkedin className="h-6 w-6" />
+                <LinkedinIcon className="h-6 w-6" />
               </a>
               <a
                 href={socialLinks.email}

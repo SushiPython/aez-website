@@ -3,10 +3,10 @@
 import React from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Instagram, Linkedin } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { ComponentProps, NavItem } from '@/types';
-import { Dropdown } from '@/components/ui';
+import { Dropdown, LinkedinIcon } from '@/components/ui';
 import { navigation, socialLinks } from '@/lib/constants';
 
 export interface NavigationProps extends ComponentProps {
@@ -107,7 +107,7 @@ const Navigation = React.forwardRef<HTMLElement, NavigationProps>(
               className="p-2 text-neutral-600 hover:text-primary-600 transition-colors"
               aria-label="LinkedIn"
             >
-              <Linkedin className="h-5 w-5" />
+              <LinkedinIcon className="h-5 w-5" />
             </a>
           </div>
         </nav>
@@ -192,7 +192,7 @@ const Navigation = React.forwardRef<HTMLElement, NavigationProps>(
             )}
             aria-label="LinkedIn"
           >
-            <Linkedin className="h-6 w-6" />
+            <LinkedinIcon className="h-6 w-6" />
           </a>
         </div>
       </nav>
