@@ -215,7 +215,7 @@ export const alumni: Alumni[] = [
   { name: 'Arjun Venkatesh', company: 'General Atomics', position: 'Mission Analysis Engineer', class: 'Chi' },
 
   // Psi
-  { name: 'Neel Kandlikar', company: 'Reevo.ai', position: 'Software Engineer', class: 'Psi' },
+  { name: 'Neel Kandlikar', company: 'Google', position: 'Software Engineer', class: 'Psi' },
   { name: 'Tarkh Lingamallu', company: 'Guggenheim Securities', position: 'Investment Banking Analyst', class: 'Psi' },
   { name: 'Dan Sunchu', company: 'Turnkey', position: 'Founding Sales Development Representative', class: 'Psi' },
 
