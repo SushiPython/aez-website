@@ -26,6 +26,11 @@ export const navigation: NavItem[] = [
     external: true,
   },
   {
+    label: 'Zenith',
+    href: 'https://pragyanr.github.io/Zenith_Capital/',
+    external: true,
+  },
+  {
     label: 'Donate',
     href: '/donate',
     dropdown: [

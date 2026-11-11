@@ -118,7 +118,7 @@ const Navigation = React.forwardRef<HTMLElement, NavigationProps>(
       <nav
         ref={ref}
         className={cn(
-          'flex items-center space-x-6',
+          'flex items-center space-x-4 whitespace-nowrap lg:space-x-6',
           className
         )}
         {...props}
@@ -169,7 +169,7 @@ const Navigation = React.forwardRef<HTMLElement, NavigationProps>(
         ))}
         
         {/* Desktop Social Icons */}
-        <div className="flex items-center space-x-3 ml-6">
+        <div className="flex items-center space-x-3 ml-2 lg:ml-6">
           <a
             href={socialLinks.instagram}
             target="_blank"
