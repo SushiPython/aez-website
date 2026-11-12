@@ -46,8 +46,8 @@ export default function Home() {
           "Since its establishment in 2003, AEZ has grown substantially and currently has more than 200 active and alumni brothers. AEZ's alumni have leveraged the skills gained during their time as actives to excel at top firms such as Meta, Google, McKinsey, and Goldman Sachs and renowned graduate schools including Stanford Medical School and Harvard Business School."
         ]}
         image={{
-          src: '/images/homepage/active-brothers-dinner.jpg',
-          alt: 'AEZ active brothers gathering together in Berkeley',
+          src: '/images/homepage/who-we-are-active-brothers-wide.jpg',
+          alt: 'Six AEZ active brothers together at a formal event',
           priority: true
         }}
         layout="right"

@@ -113,6 +113,18 @@ export const slideshowImages = [
     alt: 'AEZ active brothers together at a formal event',
   },
   {
+    src: '/images/homepage/active-brothers-dinner.jpg',
+    alt: 'AEZ active brothers gathering around a dinner table',
+  },
+  {
+    src: '/images/homepage/innovate-active-brothers-group.jpg',
+    alt: 'AEZ brothers together at Innovate at Berkeley',
+  },
+  {
+    src: '/images/homepage/graduation-stoles-group.jpg',
+    alt: 'Five AEZ brothers in Berkeley graduation stoles',
+  },
+  {
     src: '/images/homepage/innovate-conversation.jpg',
     alt: 'An AEZ brother speaking with a student at Innovate at Berkeley',
   },
