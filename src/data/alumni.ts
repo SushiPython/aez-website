@@ -178,13 +178,13 @@ export const alumni: Alumni[] = [
   { name: 'Advait Deoskar', company: 'Robinhood', position: 'Software Engineer', class: 'Tau' },
   { name: 'Ritvik Gadhok', company: 'Wells Fargo', position: 'Investment Banking Analyst', class: 'Tau' },
   { name: 'Shlok Gore', company: 'Casino Bleu', position: 'Creative Director', class: 'Tau' },
-  { name: 'Ritvik Kandarkar', company: 'USC Marshall', position: 'MS Student', class: 'Tau' },
+  { name: 'Ritvik Kandarkar', company: 'Northwestern Pritzker School of Law', position: 'JD Student', class: 'Tau' },
   { name: 'Abrar Karim', company: 'Realtor.com', position: 'Software Engineer', class: 'Tau' },
-  { name: 'Liam Patel', company: 'Disney', position: 'Strategy Analyst', class: 'Tau' },
+  { name: 'Liam Patel', company: 'Disney', position: 'Senior Strategy Analyst', class: 'Tau' },
 
   // Upsilon
   { name: 'Sehoon Byun', company: 'Ernst & Young', position: 'Audit Analyst', class: 'Upsilon' },
-  { name: 'Kevin Cheng', company: 'Point72', position: 'Equity Analyst', class: 'Upsilon' },
+  { name: 'Kevin Cheng', company: 'Point72', position: 'Investment Analyst', class: 'Upsilon' },
   { name: 'Justin Flesher', company: 'Cushman & Wakefield', position: 'Strategy Analyst', class: 'Upsilon' },
   { name: 'Ayush Misra', company: 'Uniphore', position: 'Product Engineer', class: 'Upsilon' },
   { name: 'Aswinkarthik Rameshbabu', company: 'Stripe', position: 'Software Engineer', class: 'Upsilon' },
@@ -194,32 +194,32 @@ export const alumni: Alumni[] = [
 
   // Phi
   { name: 'Rish Bellakka', company: 'Salesforce', position: 'Software Engineer', class: 'Phi' },
-  { name: 'Anish Chikkaswamy', company: 'Freddie Mac', position: 'Technology Analyst', class: 'Phi' },
-  { name: 'Pranav Iyer', company: 'Northwestern University', position: 'MS Student', class: 'Phi' },
+  { name: 'Anish Chikkaswamy', company: 'East Coast Metals', position: 'Data & Systems Engineer', class: 'Phi' },
+  { name: 'Pranav Iyer', company: 'Silna', position: 'AI Deployment', class: 'Phi' },
   { name: 'Praneeth Kanna', company: 'Meta', position: 'Software Engineer', class: 'Phi' },
   { name: 'Anirudh Natarajan', company: 'Columbia University', position: 'PhD Student', class: 'Phi' },
   { name: 'Pranav Ramachandra', company: 'Spotify', position: 'Software Engineer', class: 'Phi' },
   { name: 'Vaarun Ramanathan', company: 'Moelis & Company', position: 'Investment Banking Analyst', class: 'Phi' },
   { name: 'Aditya Satyadeep', company: 'Reevo.ai', position: 'Software Engineer', class: 'Phi' },
   { name: 'Pranav Sheokand', company: 'Google', position: 'Software Engineer', class: 'Phi' },
-  { name: 'Chiraphat Techasiri', company: 'Lumen Technologies', position: 'Software Engineer', class: 'Phi' },
+  { name: 'Chiraphat Techasiri', company: 'Beacon AI', position: 'Software Engineer', class: 'Phi' },
 
   // Chi
-  { name: 'Anthony Adly', company: 'Ocean West Capital Partners', position: 'Acquisitions Analyst', class: 'Chi' },
+  { name: 'Anthony Adly', company: 'BGO', position: 'Investment Analyst', class: 'Chi' },
   { name: 'Anitej Bharadwaj', company: 'Needham & Company', position: 'Investment Banking Analyst', class: 'Chi' },
   { name: 'Aamir Hudda', company: 'Attain', position: 'Co-Founder & CEO', class: 'Chi' },
   { name: 'Joshua Kurian', company: 'Fragment Data Technologies', position: 'Growth Lead', class: 'Chi' },
   { name: 'Nathan Lee', company: 'Squarepoint', position: 'Investment Analyst', class: 'Chi' },
   { name: 'Krish Patel', company: 'National Institutes of Health', position: 'Research Fellow', class: 'Chi' },
   { name: 'Surya Rajan', company: 'Atlas', position: 'Software Engineer', class: 'Chi' },
-  { name: 'Rahul Ravishankar', company: 'xAI', position: 'Member of Technical Staff', class: 'Chi' },
-  { name: 'Arjun Venkatesh', company: 'General Atomics', position: 'Mission Analysis Engineer', class: 'Chi' },
+  { name: 'Rahul Ravishankar', company: 'Prometheus', position: 'Member of Technical Staff', class: 'Chi' },
+  { name: 'Arjun Venkatesh', company: 'General Atomics', position: 'Senior Data Scientist', class: 'Chi' },
 
   // Psi
   { name: 'Neel Kandlikar', company: 'Google', position: 'Software Engineer', class: 'Psi' },
   { name: 'Tarkh Lingamallu', company: 'Guggenheim Securities', position: 'Investment Banking Analyst', class: 'Psi' },
   { name: 'Luke Matsui', company: 'Fehr & Peers', position: 'Transportation Engineer', class: 'Psi' },
-  { name: 'Dan Sunchu', company: 'Turnkey', position: 'Sales Development Representative', class: 'Psi' },
+  { name: 'Dan Sunchu', company: 'Kalshi', position: 'Hedging', class: 'Psi' },
 
   // Alpha Alpha
   { name: 'Om Awate', company: 'Amazon', position: 'Software Engineer', class: 'Alpha Alpha' },
@@ -229,7 +229,7 @@ export const alumni: Alumni[] = [
   { name: 'Venkat Kandukuri', company: 'Amazon', position: 'Software Engineer', class: 'Alpha Alpha' },
 
   // Alpha Beta
-  { name: 'Ibrahim Saiger', company: 'Tandem Diabetes Care', position: 'Product Development Engineer', class: 'Alpha Beta' },
+  { name: 'Ibrahim Saiger', company: 'Insulet', position: 'Product Owner', class: 'Alpha Beta' },
 
   // Alpha Gamma
   { name: 'Sashank Gadisetti', company: 'Colibri Group', position: 'AI Engineer', class: 'Alpha Gamma' },
