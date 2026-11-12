@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useRef, useCallback, useEffect } from 'react';
+import React, { useRef, useCallback } from 'react';
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
 import { ComponentProps } from '@/types';
@@ -15,7 +15,6 @@ export interface HorizontalScrollerProps extends ComponentProps {
   items: ScrollerItem[];
   title?: string;
   subtitle?: string;
-  height?: 'sm' | 'md' | 'lg' | 'xl';
   itemWidth?: number; // width of each item in pixels
   gap?: number; // gap between items in pixels
   showArrows?: boolean;
@@ -28,66 +27,42 @@ const HorizontalScroller = React.forwardRef<HTMLElement, HorizontalScrollerProps
     items, 
     title,
     subtitle,
-    height = 'md',
     itemWidth = 300,
     gap = 16,
     showArrows = true,
     visibleItems = 3,
     ...props 
   }, ref) => {
-    const [currentIndex, setCurrentIndex] = useState(0);
     const scrollerRef = useRef<HTMLDivElement>(null);
 
-    const heightClasses = {
-      sm: 'h-48',
-      md: 'h-64',
-      lg: 'h-80',
-      xl: 'h-96',
-    };
-
-    const nextSlide = useCallback(() => {
-      setCurrentIndex((prevIndex) => prevIndex + 1);
-    }, []);
-
-    const prevSlide = useCallback(() => {
-      setCurrentIndex((prevIndex) => prevIndex - 1);
-    }, []);
-
-    // Handle infinite scroll reset
-    useEffect(() => {
+    const scrollByItem = useCallback((direction: 1 | -1) => {
       const scroller = scrollerRef.current;
       if (!scroller) return;
 
-      const handleTransitionEnd = () => {
-        if (currentIndex >= items.length) {
-          // Reset to beginning without animation
-          scroller.style.transition = 'none';
-          setCurrentIndex(0);
-          // Force reflow
-          scroller.offsetHeight;
-          // Re-enable transition
-          scroller.style.transition = '';
-        } else if (currentIndex < 0) {
-          // Reset to end without animation
-          scroller.style.transition = 'none';
-          setCurrentIndex(items.length - 1);
-          // Force reflow
-          scroller.offsetHeight;
-          // Re-enable transition
-          scroller.style.transition = '';
-        }
-      };
+      const firstItem = scroller.querySelector<HTMLElement>('[data-carousel-item]');
+      const step = (firstItem?.offsetWidth ?? itemWidth) + gap;
+      const atStart = scroller.scrollLeft <= 2;
+      const atEnd = scroller.scrollLeft + scroller.clientWidth >= scroller.scrollWidth - 2;
 
-      scroller.addEventListener('transitionend', handleTransitionEnd);
-      return () => scroller.removeEventListener('transitionend', handleTransitionEnd);
-    }, [currentIndex, items.length]);
+      if (direction === 1 && atEnd) {
+        scroller.scrollTo({ left: 0, behavior: 'smooth' });
+        return;
+      }
+
+      if (direction === -1 && atStart) {
+        scroller.scrollTo({ left: scroller.scrollWidth, behavior: 'smooth' });
+        return;
+      }
+
+      scroller.scrollBy({ left: direction * step, behavior: 'smooth' });
+    }, [gap, itemWidth]);
+
+    const nextSlide = useCallback(() => scrollByItem(1), [scrollByItem]);
+    const prevSlide = useCallback(() => scrollByItem(-1), [scrollByItem]);
 
     if (!items || items.length === 0) {
       return null;
     }
-
-    // Duplicate items for seamless infinite scroll
-    const duplicatedItems = [...items, ...items];
 
     return (
       <section
@@ -116,33 +91,28 @@ const HorizontalScroller = React.forwardRef<HTMLElement, HorizontalScrollerProps
         
         {/* Scroller Container */}
         <div className="relative w-full">
-          <div 
-            className={cn(
-              'relative overflow-hidden w-full',
-              heightClasses[height]
-            )}
-          >
+          <div className="relative w-full overflow-hidden">
             {/* Scrolling Items */}
             <div 
               ref={scrollerRef}
-              className="flex transition-transform duration-700 ease-in-out h-full items-center"
+              className="flex items-center overflow-x-auto scroll-smooth snap-x snap-mandatory px-6 sm:px-8 lg:px-12 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
               style={{
-                transform: `translateX(-${currentIndex * (itemWidth + gap)}px)`,
                 gap: `${gap}px`
               }}
             >
-              {duplicatedItems.map((item, index) => (
+              {items.map((item) => (
                 <div
-                  key={`${item.src}-${index}`}
-                  className="relative flex-shrink-0 h-full overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  key={item.src}
+                  data-carousel-item
+                  className="relative flex-shrink-0 aspect-[4/3] snap-start overflow-hidden bg-neutral-100 shadow-lg hover:shadow-xl transition-shadow duration-300"
+                  style={{ width: `min(${itemWidth}px, calc(100vw - 3rem))` }}
                 >
                   <Image
                     src={item.src}
                     alt={item.alt}
-                    width={0}
-                    height={0}
-                    className="h-full w-auto object-cover"
-                    sizes="100vw"
+                    fill
+                    className="object-cover"
+                    sizes={`(max-width: 640px) calc(100vw - 3rem), ${itemWidth}px`}
                   />
                   {item.caption && (
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
@@ -155,7 +125,7 @@ const HorizontalScroller = React.forwardRef<HTMLElement, HorizontalScrollerProps
           </div>
 
           {/* Navigation Arrows */}
-          {showArrows && duplicatedItems.length > visibleItems && (
+          {showArrows && items.length > visibleItems && (
             <>
               <button
                 onClick={prevSlide}

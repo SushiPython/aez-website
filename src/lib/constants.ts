@@ -105,20 +105,12 @@ export const statsCounters: CounterData[] = [
 // followed by two legacy photos that preserve the chapter's alumni history.
 export const slideshowImages = [
   {
-    src: '/images/homepage/innovate-team.jpg',
-    alt: 'AEZ active brothers with guests at Innovate at Berkeley',
-  },
-  {
-    src: '/images/homepage/active-brothers-formal-night.jpg',
-    alt: 'AEZ active brothers together at a formal event',
-  },
-  {
-    src: '/images/homepage/active-brothers-dinner.jpg',
-    alt: 'AEZ active brothers gathering around a dinner table',
-  },
-  {
     src: '/images/homepage/innovate-active-brothers-group.jpg',
     alt: 'AEZ brothers together at Innovate at Berkeley',
+  },
+  {
+    src: '/images/homepage/innovate-team.jpg',
+    alt: 'AEZ active brothers with guests at Innovate at Berkeley',
   },
   {
     src: '/images/homepage/graduation-stoles-group.jpg',

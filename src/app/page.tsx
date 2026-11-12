@@ -11,9 +11,7 @@ export default function Home() {
       <Hero
         title="ALPHA EPSILON ZETA"
         subtitle="Berkeley's Premier Multidisciplinary Professional Fraternity"
-        backgroundImage="/images/homepage/hero-active-brothers.jpg"
-        backgroundPosition="center 42%"
-        mobileBackgroundPosition="center center"
+        backgroundImage="https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6823a2530009ab7af361bb37_2M0A9552.jpg"
         height="full"
         className="[&_h1]:font-serif"
         actions={
@@ -64,8 +62,7 @@ export default function Home() {
         title="Our Community"
         subtitle="Experience the brotherhood and lifelong connections of AEZ"
         items={slideshowImages}
-        height="lg"
-        itemWidth={350}
+        itemWidth={400}
         gap={20}
         visibleItems={3}
         showArrows={true}
