@@ -117,9 +117,17 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+.hero-background {
+  background-position: var(--hero-background-position, center center);
+}
+
 @media (max-width: 768px) {
   .hero-bg {
     background-attachment: scroll;
+  }
+
+  .hero-background {
+    background-position: var(--hero-mobile-background-position, center center);
   }
 }
 

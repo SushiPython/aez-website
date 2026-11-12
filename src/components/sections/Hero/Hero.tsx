@@ -8,6 +8,8 @@ export interface HeroProps extends ComponentProps {
   title: string;
   subtitle?: string;
   backgroundImage?: string;
+  backgroundPosition?: string;
+  mobileBackgroundPosition?: string;
   overlay?: boolean;
   height?: HeroHeight;
   actions?: React.ReactNode;
@@ -19,6 +21,8 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
     title, 
     subtitle, 
     backgroundImage, 
+    backgroundPosition = 'center center',
+    mobileBackgroundPosition,
     overlay = true, 
     height = 'full',
     actions,
@@ -31,18 +35,22 @@ const Hero = React.forwardRef<HTMLElement, HeroProps>(
       full: 'min-h-screen',
     };
 
-    const backgroundStyles = backgroundImage ? {
-      backgroundImage: `url(${backgroundImage})`,
-      backgroundPosition: 'center center',
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-    } : {};
+    const backgroundStyles = backgroundImage
+      ? ({
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          '--hero-background-position': backgroundPosition,
+          '--hero-mobile-background-position': mobileBackgroundPosition ?? backgroundPosition,
+        } as React.CSSProperties)
+      : undefined;
 
     return (
       <section
         ref={ref}
         className={cn(
           'relative flex items-center justify-center overflow-hidden',
+          'hero-background',
           'bg-scroll md:bg-fixed', // Scroll on mobile, fixed on larger screens
           heightClasses[height],
           className

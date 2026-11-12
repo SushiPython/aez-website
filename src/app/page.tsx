@@ -1,32 +1,19 @@
 'use client';
 
-import { Hero, InfoSection, CountersSection, AlumniDestinationsSection, ImageCarousel, HorizontalScroller } from '@/components/sections';
+import { Hero, InfoSection, CountersSection, AlumniDestinationsSection, HorizontalScroller } from '@/components/sections';
 import { Button } from '@/components/ui';
 import { statsCounters, slideshowImages } from '@/lib/constants';
-import Image from 'next/image';
-import { useMemo } from 'react';
-
-// Fisher-Yates shuffle algorithm
-function shuffleArray<T>(array: T[]): T[] {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
 
 export default function Home() {
-  // Randomize the order of images in the carousel
-  const randomizedImages = useMemo(() => shuffleArray(slideshowImages), []);
-
   return (
     <main>
       {/* Hero Section */}
       <Hero
         title="ALPHA EPSILON ZETA"
         subtitle="Berkeley's Premier Multidisciplinary Professional Fraternity"
-        backgroundImage="https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6823a2530009ab7af361bb37_2M0A9552.jpg"
+        backgroundImage="/images/homepage/hero-active-brothers.jpg"
+        backgroundPosition="center 42%"
+        mobileBackgroundPosition="center center"
         height="full"
         className="[&_h1]:font-serif"
         actions={
@@ -59,8 +46,8 @@ export default function Home() {
           "Since its establishment in 2003, AEZ has grown substantially and currently has more than 200 active and alumni brothers. AEZ's alumni have leveraged the skills gained during their time as actives to excel at top firms such as Meta, Google, McKinsey, and Goldman Sachs and renowned graduate schools including Stanford Medical School and Harvard Business School."
         ]}
         image={{
-          src: "https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6823a38453f092e654701b3e_2M0A0260-p-2600.jpg",
-          alt: "AEZ Brothers at Berkeley",
+          src: '/images/homepage/active-brothers-dinner.jpg',
+          alt: 'AEZ active brothers gathering together in Berkeley',
           priority: true
         }}
         layout="right"
@@ -76,7 +63,7 @@ export default function Home() {
       <HorizontalScroller
         title="Our Community"
         subtitle="Experience the brotherhood and lifelong connections of AEZ"
-        items={randomizedImages}
+        items={slideshowImages}
         height="lg"
         itemWidth={350}
         gap={20}

@@ -101,71 +101,40 @@ export const statsCounters: CounterData[] = [
   },
 ];
 
-// Slideshow images - Add your image links here
+// Homepage community slideshow. Current active brothers lead the sequence,
+// followed by two legacy photos that preserve the chapter's alumni history.
 export const slideshowImages = [
   {
+    src: '/images/homepage/innovate-team.jpg',
+    alt: 'AEZ active brothers with guests at Innovate at Berkeley',
+  },
+  {
+    src: '/images/homepage/active-brothers-formal-night.jpg',
+    alt: 'AEZ active brothers together at a formal event',
+  },
+  {
+    src: '/images/homepage/innovate-conversation.jpg',
+    alt: 'An AEZ brother speaking with a student at Innovate at Berkeley',
+  },
+  {
+    src: '/images/homepage/innovate-panel.jpg',
+    alt: 'An AEZ brother interviewing guests onstage at Innovate at Berkeley',
+  },
+  {
+    src: '/images/homepage/active-brothers-social.jpg',
+    alt: 'AEZ active brothers celebrating together',
+  },
+  {
+    src: '/images/homepage/innovate-presentation.jpg',
+    alt: 'AEZ active brothers presenting at Innovate at Berkeley',
+  },
+  {
     src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c40b91935c9898b88381_IMG_1031-min.JPG',
-    alt: 'AEZ Event Photo 1',
+    alt: 'AEZ brothers at a chapter event',
   },
   {
     src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c40ace2f16ce3860e50f_100_1014-min.JPG',
-    alt: 'AEZ Event Photo 2',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cf9184968c5f3d2109_IMG_2143.JPG',
-    alt: 'AEZ Event Photo 3',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cfdab45cd5aa72397d_2M0A3828.jpg',
-    alt: 'AEZ Event Photo 4',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1ce61d868ed7907009e_IMG_4286.JPG',
-    alt: 'AEZ Event Photo 5',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1ce9948942f57ac3cef_IMG_4098.JPG',
-    alt: 'AEZ Event Photo 6',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1ce0a6ba6442ea5b1c3_2M0A0177%20(1).jpg',
-    alt: 'AEZ Event Photo 7',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1ceb7c0502d7af204e6_2M0A0645.jpg',
-    alt: 'AEZ Event Photo 8',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cd690e3c8e85a11412_2M0A4037.jpg',
-    alt: 'AEZ Event Photo 9',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cdfbe567fe9cc24b13_IMG_4024.JPG',
-    alt: 'AEZ Event Photo 10',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cd641fc0402b6e66c2_DSC05876.jpg',
-    alt: 'AEZ Event Photo 11',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cd155a37ad75e0564c_2A0CF023-1017-452C-AACD-CEA6F14C52AB.JPG',
-    alt: 'AEZ Event Photo 12',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cd690e3c8e85a113d8_IMG_2891.JPG',
-    alt: 'AEZ Event Photo 13',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cc4f46207b2bbb1b0e_IMG_2178.JPG',
-    alt: 'AEZ Event Photo 14',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1ccf529c6ca26e8cf33_IMG_0224.JPG',
-    alt: 'AEZ Event Photo 15',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c1cbd230cb475ef00365_20250209_123711_C6DD9E.jpeg',
-    alt: 'AEZ Event Photo 16',
+    alt: 'AEZ alumni together at a chapter gathering',
   },
 ];
 
