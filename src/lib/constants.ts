@@ -133,10 +133,6 @@ export const slideshowImages = [
     alt: 'An AEZ brother interviewing guests onstage at Innovate at Berkeley',
   },
   {
-    src: '/images/homepage/active-brothers-social.jpg',
-    alt: 'AEZ active brothers celebrating together',
-  },
-  {
     src: '/images/homepage/innovate-presentation.jpg',
     alt: 'AEZ active brothers presenting at Innovate at Berkeley',
   },
