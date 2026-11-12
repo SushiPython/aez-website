@@ -67,7 +67,7 @@ export default function AlumniPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
               <div className="text-center">
-                <div className="text-4xl md:text-5xl font-semibold mb-1 text-white" style={{textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)'}}>500M+</div>
+                <div className="text-4xl md:text-5xl font-semibold mb-1 text-white" style={{textShadow: '0 2px 4px rgba(0, 0, 0, 0.5)'}}>$500M+</div>
                 <div className="text-base font-medium text-white/90 font-inter">Capital Raised</div>
               </div>
               <div className="text-center">
