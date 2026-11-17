@@ -101,41 +101,19 @@ export const statsCounters: CounterData[] = [
   },
 ];
 
-// Homepage community slideshow. Current active brothers lead the sequence,
-// followed by two legacy photos that preserve the chapter's alumni history.
+// Community photos are stored in this repository so the gallery does not depend
+// on external image hosts. Alternate professional, social and Innovate scenes to
+// avoid grouping near-identical photos together, including across the loop seam.
 export const slideshowImages = [
-  {
-    src: '/images/homepage/innovate-active-brothers-group.jpg',
-    alt: 'AEZ brothers together at Innovate at Berkeley',
-  },
-  {
-    src: '/images/homepage/innovate-team.jpg',
-    alt: 'AEZ active brothers with guests at Innovate at Berkeley',
-  },
-  {
-    src: '/images/homepage/graduation-stoles-group.jpg',
-    alt: 'Five AEZ brothers in Berkeley graduation stoles',
-  },
-  {
-    src: '/images/homepage/innovate-conversation.jpg',
-    alt: 'An AEZ brother speaking with a student at Innovate at Berkeley',
-  },
-  {
-    src: '/images/homepage/innovate-panel.jpg',
-    alt: 'An AEZ brother interviewing guests onstage at Innovate at Berkeley',
-  },
-  {
-    src: '/images/homepage/innovate-presentation.jpg',
-    alt: 'AEZ active brothers presenting at Innovate at Berkeley',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c40b91935c9898b88381_IMG_1031-min.JPG',
-    alt: 'AEZ brothers at a chapter event',
-  },
-  {
-    src: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/6903c40ace2f16ce3860e50f_100_1014-min.JPG',
-    alt: 'AEZ alumni together at a chapter gathering',
-  },
+  { src: '/images/homepage/hero-active-brothers.jpg', alt: 'AEZ brothers walking together in formal attire at Berkeley' },
+  { src: '/images/homepage/innovate-panel.jpg', alt: 'AEZ brother moderating the Innovate panel' },
+  { src: '/images/homepage/active-brothers-social.jpg', alt: 'AEZ brothers together at a social gathering' },
+  { src: '/images/homepage/innovate-team.jpg', alt: 'AEZ brothers and guests at Innovate' },
+  { src: '/images/homepage/graduation-stoles-group.jpg', alt: 'AEZ graduates wearing Berkeley stoles' },
+  { src: '/images/homepage/innovate-conversation.jpg', alt: 'Student networking at Innovate' },
+  { src: '/images/homepage/active-brothers-formal-night.jpg', alt: 'AEZ brothers celebrating together in formal attire' },
+  { src: '/images/homepage/innovate-presentation.jpg', alt: 'AEZ speakers presenting at Innovate' },
+  { src: '/images/homepage/innovate-active-brothers-group.jpg', alt: 'AEZ brothers attending Innovate at Berkeley' },
 ];
 
 // Class mappings for brother organization
