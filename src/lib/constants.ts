@@ -113,6 +113,7 @@ export const slideshowImages = [
   { src: '/images/homepage/innovate-conversation.jpg', alt: 'Student networking at Innovate' },
   { src: '/images/homepage/active-brothers-formal-night.jpg', alt: 'AEZ brothers celebrating together in formal attire' },
   { src: '/images/homepage/innovate-presentation.jpg', alt: 'AEZ speakers presenting at Innovate' },
+  { src: '/images/homepage/active-brothers-dinner.jpg', alt: 'AEZ brothers at a group dinner' },
   { src: '/images/homepage/innovate-active-brothers-group.jpg', alt: 'AEZ brothers attending Innovate at Berkeley' },
 ];
 
