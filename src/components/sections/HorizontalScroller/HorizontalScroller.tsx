@@ -52,7 +52,7 @@ const HorizontalScroller = React.forwardRef<HTMLElement, HorizontalScrollerProps
                       src={item.src}
                       alt={copy === 0 ? item.alt : ''}
                       fill
-                      className="object-contain"
+                      className="object-cover"
                       sizes={`(max-width: 640px) 82vw, ${itemWidth}px`}
                       priority={copy === 0 && index < 3}
                     />
