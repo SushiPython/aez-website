@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 .aez-marquee-viewport { width: 100%; overflow: hidden; }
 .aez-marquee-track { display: flex; width: max-content; animation: aez-community-scroll 90s linear infinite; will-change: transform; }
 .aez-marquee-group { display: flex; flex: none; }
-.aez-marquee-tile { position: relative; flex: none; aspect-ratio: 4 / 3; overflow: hidden; background: #e5e7eb; box-shadow: 0 8px 18px rgb(0 0 0 / .12); }
+.aez-marquee-tile { position: relative; flex: none; aspect-ratio: 4 / 3; overflow: hidden; box-shadow: 0 8px 18px rgb(0 0 0 / .12); }
 .aez-marquee-viewport:hover .aez-marquee-track, .aez-marquee-viewport:focus-within .aez-marquee-track { animation-play-state: paused; }
 @keyframes aez-community-scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .aez-marquee-track { animation: none; } .aez-marquee-viewport { overflow-x: auto; } }
