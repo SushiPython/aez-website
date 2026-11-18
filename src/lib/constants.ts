@@ -105,15 +105,19 @@ export const statsCounters: CounterData[] = [
 // on external image hosts. Alternate professional, social and Innovate scenes to
 // avoid grouping near-identical photos together, including across the loop seam.
 export const slideshowImages = [
-  { src: '/images/homepage/hero-active-brothers.jpg', alt: 'AEZ brothers walking together in formal attire at Berkeley' },
-  { src: '/images/homepage/innovate-panel.jpg', alt: 'AEZ brother moderating the Innovate panel' },
-  { src: '/images/homepage/active-brothers-social.jpg', alt: 'AEZ brothers together at a social gathering' },
+  { src: '/images/homepage/hero-active-brothers.jpg', alt: 'AEZ brothers walking together at Berkeley' },
+  { src: '/images/homepage/innovate-panel.jpg', alt: 'AEZ brother moderating an Innovate panel' },
+  { src: '/images/homepage/chat-formal-rooftop.jpg', alt: 'AEZ brothers together outdoors in formal attire' },
+  { src: '/images/homepage/active-brothers-social.jpg', alt: 'AEZ brothers at a social gathering' },
   { src: '/images/homepage/innovate-team.jpg', alt: 'AEZ brothers and guests at Innovate' },
+  { src: '/images/homepage/chat-brotherhood-portrait.jpg', alt: 'Two AEZ brothers together outdoors' },
   { src: '/images/homepage/graduation-stoles-group.jpg', alt: 'AEZ graduates wearing Berkeley stoles' },
   { src: '/images/homepage/innovate-conversation.jpg', alt: 'Student networking at Innovate' },
-  { src: '/images/homepage/active-brothers-formal-night.jpg', alt: 'AEZ brothers celebrating together in formal attire' },
+  { src: '/images/homepage/chat-formal-boat.jpg', alt: 'AEZ brothers in formal attire on a boat' },
+  { src: '/images/homepage/chat-brotherhood-social.jpg', alt: 'AEZ brothers together at a chapter social event' },
   { src: '/images/homepage/innovate-presentation.jpg', alt: 'AEZ speakers presenting at Innovate' },
-  { src: '/images/homepage/innovate-active-brothers-group.jpg', alt: 'AEZ brothers attending Innovate at Berkeley' },
+  { src: '/images/homepage/chat-formal-gathering.jpg', alt: 'AEZ brothers at a formal chapter gathering' },
+  { src: '/images/homepage/active-brothers-dinner.jpg', alt: 'AEZ brothers together at dinner' },
 ];
 
 // Class mappings for brother organization
