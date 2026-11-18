@@ -114,13 +114,10 @@ export const slideshowImages = [
   { src: '/images/homepage/graduation-stoles-group.jpg', alt: 'AEZ graduates wearing Berkeley stoles' },
   { src: '/images/homepage/innovate-conversation.jpg', alt: 'Student networking at Innovate' },
   { src: '/images/homepage/chat-formal-boat.jpg', alt: 'AEZ brothers in formal attire on a boat' },
-  { src: '/images/homepage/active-brothers-formal-night.jpg', alt: 'AEZ brothers at a formal evening' },
-  { src: '/images/homepage/chat-innovate-group.jpg', alt: 'AEZ brothers attending an Innovate event' },
   { src: '/images/homepage/chat-brotherhood-social.jpg', alt: 'AEZ brothers together at a chapter social event' },
   { src: '/images/homepage/innovate-presentation.jpg', alt: 'AEZ speakers presenting at Innovate' },
   { src: '/images/homepage/chat-formal-gathering.jpg', alt: 'AEZ brothers at a formal chapter gathering' },
   { src: '/images/homepage/active-brothers-dinner.jpg', alt: 'AEZ brothers together at dinner' },
-  { src: '/images/homepage/innovate-active-brothers-group.jpg', alt: 'AEZ brothers together at Innovate' },
 ];
 
 // Class mappings for brother organization
