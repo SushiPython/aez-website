@@ -113,7 +113,6 @@ export const slideshowImages = [
   { src: '/images/homepage/chat-brotherhood-portrait.jpg', alt: 'Two AEZ brothers together outdoors' },
   { src: '/images/homepage/graduation-stoles-group.jpg', alt: 'AEZ graduates wearing Berkeley stoles' },
   { src: '/images/homepage/innovate-conversation.jpg', alt: 'Student networking at Innovate' },
-  { src: '/images/homepage/chat-formal-boat.jpg', alt: 'AEZ brothers in formal attire on a boat' },
   { src: '/images/homepage/chat-brotherhood-social.jpg', alt: 'AEZ brothers together at a chapter social event' },
   { src: '/images/homepage/innovate-presentation.jpg', alt: 'AEZ speakers presenting at Innovate' },
   { src: '/images/homepage/chat-formal-gathering.jpg', alt: 'AEZ brothers at a formal chapter gathering' },
