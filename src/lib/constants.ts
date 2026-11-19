@@ -117,7 +117,6 @@ export const slideshowImages = [
   { src: '/images/homepage/chat-brotherhood-social.jpg', alt: 'AEZ brothers together at a chapter social event' },
   { src: '/images/homepage/innovate-presentation.jpg', alt: 'AEZ speakers presenting at Innovate' },
   { src: '/images/homepage/chat-formal-gathering.jpg', alt: 'AEZ brothers at a formal chapter gathering' },
-  { src: '/images/homepage/active-brothers-dinner.jpg', alt: 'AEZ brothers together at dinner' },
 ];
 
 // Class mappings for brother organization
