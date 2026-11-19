@@ -493,20 +493,6 @@ export const regularBrothers: Brother[] = [
     isExecutive: false
   },
   {
-    id: 'ethan-lau',
-    name: 'Ethan Lau',
-    class: 'Alpha Zeta',
-    major: 'Computer Science and Data Science',
-    year: 'sophomore',
-    hometown: 'Fremont, California',
-    bio: 'Ethan is a sophomore and part of the Alpha Zeta class. He is from Fremont, California and is majoring in Computer Science and Data Science. He is interested in a career in quantitative trading and software engineering. Outside of his professional interests, he enjoys watching movies, hooping, lifting, and listening to music.',
-    image: 'https://cdn.prod.website-files.com/6374140cc01b132d1cad9d00/693a0c667c56738ceca08df0_Ethan_Lau_AZClassFA25.JPG',
-    email: 'TBD',
-    linkedin: 'https://www.linkedin.com/in/ethanlauuu/',
-    interests: ['quantitative trading', 'software engineering', 'movies', 'basketball', 'lifting', 'music'],
-    isExecutive: false
-  },
-  {
     id: 'srithan-meeniga',
     name: 'Srithan Meeniga',
     class: 'Alpha Zeta',
