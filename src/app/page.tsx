@@ -65,7 +65,7 @@ export default function Home() {
         itemWidth={400}
         gap={20}
         visibleItems={3}
-        showArrows={false}
+        showArrows={true}
         className="bg-neutral-50"
       />
 
